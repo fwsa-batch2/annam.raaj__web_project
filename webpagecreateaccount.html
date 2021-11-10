@@ -11,30 +11,34 @@
     background-size: 100% 100% ;
     background-attachment: fixed;
    }
+   .button1:hover{
+     background-color: green;
+     color: white;
+   }
     </style>
 </head>
   <body background="./image/backca.jpg">
 
-  <form>
+  <form action="webagepayment.html">
       <table style="color:#BB2020"; border="2" align="center">
 
          <tr>
-           <th> Name:</th><td> <input type="text" name="name" placeholder="Enter your  Name"></td>
+           <th> Name:</th><td> <input type="text" name="name" placeholder="Enter your  Name" required ></td>
          </tr>
          <tr>
            <th>Address:</th><td> <input type="text" name="address" placeholder="Enter your Adderss"></td>
          </tr>
 ​
          <tr>
-           <th>Email:</th><td> <input type="email" name="email_id" placeholder="Enter your Email ID"> </td>
+           <th>Email:</th><td> <input type="email" name="email_id" placeholder="Enter your Email ID" required > </td>
          </tr>
 ​
          <tr>
-           <th>Create Password:</th><td> <input type="password" name="create password" placeholder="Maximum of 7 letters"> </td>
+           <th>Create Password:</th><td> <input type="password" name="create password" placeholder="Maximum of 7 letters" required > </td>
          </tr>
 
          <tr>
-           <th>Conform Password:</th><td> <input type="password" name="cronform password" placeholder="Password"> </td>
+           <th>Conform Password:</th><td> <input type="password" name="cronform password" placeholder="Password" required > </td>
          </tr>
 
 ​          <tr>
@@ -46,7 +50,7 @@
 ​
 ​
          <tr>
-           <th>Mobile Number: </th><td> <input type="mobile nunmber" name="mobile number" placeholder="Enter your Mobile Number"></td>
+           <th>Mobile Number: </th><td> <input type="mobile nunmber" name="mobile number" placeholder="Enter your Mobile Number" required ></td>
          </tr>
 ​
          <tr>
@@ -58,14 +62,12 @@
            <td> <input type="checkbox" name="nationality" value="F" required > Other Country </td>
          </tr>
 ​
-        <tr>
-           <td>
-             <a href="webagepayment.html"><input type="button" name="submit" value="Submit"> </a>
-           </td>
-        </tr>
 
-       </table>
 
+      </table> <br><br><br>
+       <center>
+        <a href="webagepayment.html">  <button class="button1"> <h3> SUBMIT  </h3>   </button> </a>
+      </center>
      </form>
 
     </body>
