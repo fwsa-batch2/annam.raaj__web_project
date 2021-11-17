@@ -1,9 +1,9 @@
 <html>
   <head>
-    <h1  style="color:#021F59;" align="center" >
+    <h1  style="color:#021F59;" align="center">
       <a href="webpagehome.html">
         <img src="./image/wt.png" width=70px heigt=70px></a>  WORLD TOUR  </h1>
-  <title> WORLD TOUR NEW ACCOUNT </title>
+  <title> User Registration </title>
   <style>
   body {
     background-image: ./image/backca.jpg;
@@ -14,6 +14,9 @@
    .button1:hover{
      background-color: green;
      color: white;
+   }
+   .reset1{
+     font-size: 40px;
    }
     </style>
 </head>
@@ -38,7 +41,7 @@
          </tr>
 
          <tr>
-           <th>Conform Password:</th><td> <input type="password" name="cronform password" placeholder="Password" required > </td>
+           <th>Confirm Password:</th><td> <input type="password" name="cronform password" placeholder="Password" required > </td>
          </tr>
 
 ​          <tr>
@@ -58,16 +61,20 @@
         </tr>
 ​
          <tr>
-           <th> Nationality </th><td><input type="checkbox" name="nationality" value="M"> Indian </td>
-           <td> <input type="checkbox" name="nationality" value="F" required > Other Country </td>
+           <th> Nationality </th><td><input type="radio" name="nationality" value="M"> Indian </td>
+           <td> <input type="radio" name="nationality" value="F" required > Other Country </td>
          </tr>
 ​
-
+        <tr>
+          <td></td> <center><td> <input type="reset" name="" value="Reset"> </td><center>
+        </tr>
 
       </table> <br><br><br>
        <center>
-        <a href="webagepayment.html">  <button class="button1"> <h3> SUBMIT  </h3>   </button> </a>
-      </center>
+        <a href="webagepayment.html">  <button class="button1"> <h3> SUBMIT  </h3> </button> </a>
+        </center>
+        
+
      </form>
 
     </body>
