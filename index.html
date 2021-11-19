@@ -33,11 +33,77 @@ h2{
 h3{
   font-style: oblique;
 }
-p{
+/* p{
   font-size: 50px;
   color: white;
+} */
+.details1{
+  background-color: red;
+  position: fixed;
+  padding-left: 90px;
+  width: 250px;
+  /*height: 250px;*/
+  font-size: 20px;
 }
-
+.details2{
+  background-color: red;
+  /*position: fixed;*/
+  margin-left: 500px;
+ display: flex;
+  padding-left: 90px;
+  width: 250px;
+  /*height: 250px;*/
+  font-size: 20px;
+}
+.details3{
+  background-color: red;
+  /*position: fixed;*/
+  display: flex;
+  margin-left: 1000px;
+  padding-left: 90px;
+  width: 250px;
+  /*height: 250px;*/
+  font-size: 20px;
+}
+.details4{
+  background-color: red;
+  position: fixed;
+  margin-left: 1500px;
+  padding-left: 90px;
+  width: 250px;
+  /*height: 250px;*/
+  font-size: 20px;
+}
+.details5{
+  background-color: red;
+  position: fixed;
+  margin-left: 2000px;
+  padding-left: 90px;
+  width: 250px;
+  /*height: 250px;*/
+  font-size: 20px;
+}
+summary{
+  padding:10px;
+  width:220px;
+  background-color:white;
+  box-shadow: 5px 15px 15px black;
+  cursor:pointer;
+  font-size:25px;
+}
+p{
+  background-color: white;
+  color:black;
+  width:250px;
+  /*height: 500px;*/
+  padding:0px;
+  box-shadow: 2px 2px 5px black;
+  font-size:25px;
+}
+.mainbox{
+width: 100%;
+display: inline-block;
+}
     </style>
   </head>
 <body background="./image/p.jpg">
@@ -78,36 +144,47 @@ p{
    </span>
 </div>
 
-<div>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <b style="font-size:20px">New York Trip</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <b style="font-size:20px">Paris Trip</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <b style="font-size:20px">Singapore Trip</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <b style="font-size:20px">Delhi Trip</b>
-  </span>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span>
-    <b style="font-size:20px">Agra Trip</b>
-  </span>
+<div class="mainbox">
+
+  <div class="details1">  <details><summary>New York Trip</summary>
+      <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.
+         At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers.
+          </p>
+    </details>
+  </div>
+    <!-- <b style="font-size:20px">New York Trip</b> -->
+
+    <div class="details2">  <details><summary>New York Trip</summary>
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.
+           At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers.
+            </p>
+      </details>
+    </div>
+    <!-- <b style="font-size:20px">Paris Trip</b> -->
+
+    <div class="details3">  <details><summary>New York Trip</summary>
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.
+           At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers.
+            </p>
+      </details>
+    </div>
+    <!-- <b style="font-size:20px">Singapore Trip</b> -->
+
+    <div class="details4">  <details><summary>New York Trip</summary>
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.
+           At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers.
+            </p>
+      </details>
+    </div>
+    <!-- <b style="font-size:20px">Delhi Trip</b> -->
+
+    <div class="details5">  <details><summary>New York Trip</summary>
+        <p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean.
+           At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers.
+            </p>
+      </details>
+    </div>
+    <!-- <b style="font-size:20px">Agra Trip</b> -->
 </div> <br> <br> <br>
 
 
