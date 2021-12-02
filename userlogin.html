@@ -29,22 +29,25 @@
             height: 50px;
             font-size: 25px;
             border-radius: 20px;
-            margin-left: 50px;
+            /* margin-left: 50px; */
             margin-top: 30px;
             padding-left: 10px;
         }
 
-        p {
+        label {
+            font-size: 25px;
+            margin-left: 40px;
+        }
+
+        /* p {
             font-size: 25px;
             margin-left: 25px;
-        }
+        } */
 
         h3 {
-            margin-left: 150px;
-            margin-top: -25px;
+            margin-left: 125px;
+            margin-top: 5px;
         }
-
-       
 
         button {
             height: 60px;
@@ -52,23 +55,29 @@
             color: black;
             border-radius: 20px;
             font-size: 25px;
-            margin-left: 150px;
+            margin-left: 175px;
 
         }
-        button:hover{
+
+        button:hover {
             background-color: green;
             color: white;
         }
 
-        .test{
+        .test {
             font-size: 25px;
-            margin-left: 800px;
-            margin-top: 10px;
+            margin-left: 700px;
+            margin-top: -60px;
             font-weight: bold;
         }
-        .test a{
-               
-               color: rgb(114, 13, 114);
+
+        .test a {
+
+            color: rgb(114, 13, 114);
+        }
+        .for a{
+        text-decoration: none;
+        color: darkblue;
         }
     </style>
 </head>
@@ -77,18 +86,21 @@
     <form action="MyAccount.html">
         <div class="container">
 
-            <p> Name: <input type="text" placeholder="Enter Your Name " required><br> </p>
-            <p> Email: <input type="email" placeholder="Enter Your Email " required><br></p>
-            <p> Password:<input type="password" placeholder="Password" required></p><br>
-            <a href="#">
-                <h3>forget Password?</h3>
-            </a>
+            <label for="input1"> Name: </label><input type="text" id="input1" placeholder="Enter Your Name " required><br>
+            <label for="input2"> Email: </label><input type="email" id="input2" placeholder="Enter Your Email " required><br>
+            <label for="input3"> Password: </label> <input type="password" id="input3" placeholder="Password" required>
+            <br>
+            <h3>forget Password? <a href="forgetpassword.html">
+                Click here
+             </a></h3>
+            
+        
 
             <a href="MyAccount.html"><button>Submit</button></a>
         </div>
 
     </form>
-    <p class="test"> New User ? <a href="webpagecreateaccount.html"> Sign Up </a> </p>
+    <p class="test"> New User Sign up free here ? <a href="webpagecreateaccount.html"> Click here </a> </p>
 </body>
 
 </html>
