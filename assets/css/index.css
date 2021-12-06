@@ -1,0 +1,82 @@
+
+ body {
+    background-image: url("/worldtourapp-ui/assets/image/wtbg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+   }
+.i1 {
+  padding-left: 1750px;
+
+}
+.i1 a{
+  color: black;
+
+}
+.i2 a{
+  text-decoration: none;
+  color: black;
+}
+.i2 {
+  padding-left: 1755px;
+}
+h2{
+  font-style: italic;
+}
+h3{
+  font-style: oblique;
+}.newyork{
+    margin-left: 100px;
+}
+.paris{
+    margin-left: 100px;
+}
+.singapore{
+    margin-left: 100px;
+}
+.delhi{
+    margin-left: 100px;
+}
+.agra{
+    margin-left: 100px;
+}
+.varanasi{
+    margin-left: 100px;
+}
+.ooty{
+    margin-left: 100px;
+}
+.darjeeling{
+    margin-left: 100px;
+}
+.araku{
+    margin-left: 100px;
+}
+/* text  */
+.nytext{
+    margin-left: 150px;
+}
+.prtext{
+    margin-left: 250px;
+}
+.sintext{
+    margin-left: 250px;
+}
+.deltext{
+    margin-left: 250px;
+}
+.agtext{
+    margin-left: 250px;
+}
+.vartext{
+    margin-left: 100px;
+}
+.ottext{
+    margin-left: 170px;
+}
+.dartext{
+    margin-left: 250px;
+}
+.aktext{
+    margin-left: 250px;
+}
