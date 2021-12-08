@@ -1,10 +1,5 @@
 
- body {
-    background-image: url("/worldtourapp-ui/assets/image/wtbg.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 100% ;
-    background-attachment: fixed;
-   }
+
 .i1 {
   padding-left: 1750px;
 
@@ -79,4 +74,21 @@ h3{
 }
 .aktext{
     margin-left: 250px;
+}
+img{
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+/* img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+} */
+.logo{
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
 }

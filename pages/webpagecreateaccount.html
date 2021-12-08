@@ -3,10 +3,7 @@
 <head>
   <link rel="stylesheet" href="../assets/css/createaccount.css">
 
-  <h1 style="color:#021F59;" align="center">
-    <a href="webpagehome.html">
-      <img src="./../assets/image/wt.png" width=70px heigt=70px></a> WORLD TOUR
-  </h1>
+  
   <title> User Registration </title>
   <style>
     body {
@@ -33,13 +30,14 @@
 </head>
 
 <body>
+  <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
 <div class="container">
   <form onsubmit="passwordValidation()">
     <table style="color:#000000" ; >
 
       <tr>
         <th> Name:</th>
-        <td> <input type="text" name="name" placeholder="Enter your  Name" required></td>
+        <td> <input type="text" name="name" placeholder="Enter your  Name" minlength="3" maxlength="20" required></td>
       </tr>
       <tr>
         <th>Address:</th>
@@ -62,14 +60,23 @@
         <td> <input type="password" name="cronform password" id="confrimPassword" minlength="8" maxlength="12"
             placeholder="Password" required> </td>
       </tr>
+      <tr>
+        <td>
+          <div id="pass">
 
+          </div>
+        </td>
+
+        
+      </tr>
+       
       ​ <tr>
         <th>Passport no.:</th>
         <td> <input type="passport no." name="passport no." placeholder="For out of Country Use"> </td>
       </tr>
       <tr>
-        <th>Age:</th>
-        <td> <input type="number" name="age" placeholder="As of 2021"> </td>
+        <th>Date Of Birth:</th>
+        <td> <input type="date" name="age" placeholder="As of 2021" min="1921-12-31" max="2021-12-31" required> </td>
       </tr>
       ​
       ​
@@ -106,7 +113,7 @@
       <tr>
         <td></td>
        
-          <td> <input type="reset" name="" value="Reset" class="reset"> </td>
+          <td> <input type="reset" name="" value="Reset" class="earse"> </td>
           
       </tr>
 

@@ -9,8 +9,10 @@ function passwordValidation(){
         window.location.replace("userlogin.html")
     }
     else {
-        console.log("Confrim Password does not match");
-        alert("Confrim Password does not match");
-    }
-    alert("Your Registered Successfully  ")
+       document.getElementById("pass").innerHTML=("Paswords are different.")
+           }
+  
+ 
 }
+
+

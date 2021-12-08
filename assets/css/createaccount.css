@@ -1,9 +1,10 @@
 .container{
     background-color: white;
     width: 750px;
-    height: 700px;
+    height: 650px;
     border-radius: 50px;
-    margin-left: 500px;
+    margin-left: 520px;
+    margin-top: 10px;
 }
 input{
     width: 355px;
@@ -31,13 +32,28 @@ button{
     border-radius: 20px;
     font-size: 25px;
     font-weight: bold;
-    margin-left: 120px;
+    margin-left: 250px;
     margin-top: -110px;
 }
-.reset{
+.earse{
     width: 120px;
     height: 50px;
     margin-left: 10px;
     margin-top: 10px;
     font-weight: bold;
+}
+.earse:hover{
+    background-color: red;
+    color: white;
+}
+#pass{
+    margin-left: 120px;
+    color: red;
+    font-weight: bold;
+}
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
 }
