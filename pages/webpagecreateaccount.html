@@ -32,12 +32,12 @@
 <body>
   <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
 <div class="container">
-  <form onsubmit="passwordValidation()">
+  <form onsubmit="myPassword()">
     <table style="color:#000000" ; >
 
       <tr>
         <th> Name:</th>
-        <td> <input type="text" name="name" placeholder="Enter your  Name" minlength="3" maxlength="20" required></td>
+        <td> <input type="text" name="name" placeholder="Enter your  Name" id="name" minlength="3"  required></td>
       </tr>
       <tr>
         <th>Address:</th>
@@ -46,18 +46,24 @@
       ​
       <tr>
         <th>Email:</th>
-        <td> <input type="email" name="email_id" placeholder="Enter your Email ID" required> </td>
+        <td> <input type="email" name="email_id" placeholder="Enter your Email ID" id="email" required> </td>
       </tr>
-      ​
+      ​<tr>
+        <td>
+          <div class="msgMail">
+
+          </div>
+        </td>
+      </tr>
       <tr>
         <th>Create Password:</th>
-        <td> <input type="password" name="create password" id="createPassword" minlength="8" maxlength="12"
+        <td> <input type="password" name="create password" id="createPassword" minlength="8" 
             placeholder="Password" required> </td>
       </tr>
 
       <tr>
         <th>Confirm Password:</th>
-        <td> <input type="password" name="cronform password" id="confrimPassword" minlength="8" maxlength="12"
+        <td> <input type="password" name="cronform password" id="confrimPassword" minlength="8" 
             placeholder="Password" required> </td>
       </tr>
       <tr>
@@ -76,13 +82,13 @@
       </tr>
       <tr>
         <th>Date Of Birth:</th>
-        <td> <input type="date" name="age" placeholder="As of 2021" min="1921-12-31" max="2021-12-31" required> </td>
+        <td> <input type="date" name="age" placeholder="As of 2021" id="dob" min="1921-12-31" max="2021-12-31" required> </td>
       </tr>
       ​
       ​
       <tr>
         <th>Mobile Number: </th>
-        <td> <input type="mobile nunmber" name="mobile number" placeholder="Enter your Mobile Number" required></td>
+        <td> <input type="mobile nunmber" name="mobile number" placeholder="Enter your Mobile Number" id="mobile" required></td>
       </tr>
       ​
       <tr>

@@ -81,14 +81,35 @@ img{
   cursor: pointer;
   border-radius: 30px;
 }
-/* img:hover{
+img:hover{
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position:relative;
     transition: 0.25s;
-} */
+}
 .logo{
     width: 500px;
     height: 150px;
     margin-left: 650px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    
+    color: black;
+    border-radius: 50px;
 }
