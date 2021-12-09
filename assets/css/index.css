@@ -109,7 +109,11 @@ li a{
 }
 li :hover{
     background-color: white;
-    
+    padding:10px;
     color: black;
     border-radius: 50px;
+}
+.holidaytrip{
+    margin-left: 100px;
+   
 }

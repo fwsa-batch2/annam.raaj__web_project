@@ -28,7 +28,7 @@ function myPassword(){
     }
     let isEmailAleadyExists=false;
     let array=JSON.parse(localStorage.getItem("User Credentials"));
-    for(i=0;i<array.length;i++){
+    for(i=0;i< list.length ;i++){
         if(array[i].email_id==email){
             isEmailAleadyExists=true;
             
@@ -36,7 +36,7 @@ function myPassword(){
          }
         }
         if(isEmailAleadyExists){
-            alert("error");
+            alert("Email-id already exsits.");
             return;
         }
 
@@ -46,13 +46,13 @@ function myPassword(){
         list.push(userDetails);
         const accountDetails = JSON.stringify(list);
         localStorage.setItem("User Credentials", accountDetails);
-        
+        window.location.href = "userlogin.html"
     }
     else {
         document.getElementById("pass").innerHTML = ("Passwords are different.");
     }
    
-       window.location.href = "userlogin.html"
+       
 }
 
    
