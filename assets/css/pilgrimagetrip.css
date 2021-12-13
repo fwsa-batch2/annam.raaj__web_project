@@ -1,0 +1,41 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+img{
+    border-radius: 30px;
+}
+.varanasi{
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.tirumala{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.macca{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.jerusaleum{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.vartext{
+    margin-left: 150px;
+    font-size: 25px;
+}
+.tirtext{
+    margin-left: 170px;
+    font-size: 25px;
+}
+.mactext{
+    margin-left: 230px;
+    font-size: 25px;
+}
+.jertext{
+    margin-left: 230px;
+    font-size: 25px;
+}

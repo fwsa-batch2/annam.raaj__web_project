@@ -52,7 +52,9 @@ function myPassword(){
         document.getElementById("pass").innerHTML = ("Passwords are different.");
     }
    
-       
+     
+   
+     
 }
 
    
@@ -64,8 +66,11 @@ function myPassword(){
   //isEmailAlre=true;
  // break
  //if(isEmailAr==true)
+ // new Date()
  //error
-  
+  // get id
+  // assign a vairble
+  // if var.length != 10 {error}
   // }
 
 
@@ -86,6 +91,7 @@ function passwordValidation() {
         return false;
     }
 }
+
 
 
 

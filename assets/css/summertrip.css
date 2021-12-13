@@ -1,0 +1,33 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+img{
+    border-radius: 30px;
+}
+.ooty{
+    margin-left: 380px;
+    margin-top: 100px;
+}
+.darjeeling{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.araku{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.ottext{
+    margin-left: 450px;
+    font-size: 25px;
+}
+.dartext{
+    margin-left: 270px;
+    font-size: 25px;
+}
+.aktext{
+    margin-left: 260px;
+    font-size: 25px;
+}

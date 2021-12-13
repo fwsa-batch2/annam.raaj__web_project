@@ -76,10 +76,11 @@ h3{
     margin-left: 250px;
 }
 img{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   cursor: pointer;
   border-radius: 30px;
+  border-color: black;
 }
 img:hover{
     transform: scale(1.5);
@@ -114,6 +115,23 @@ li :hover{
     border-radius: 50px;
 }
 .holidaytrip{
-    margin-left: 100px;
+    margin-left: 300px;
    
+}
+.summertrip{
+    margin-left: 100px;
+}
+.pilgrimagetrip{
+    margin-left: 100px;
+}
+.holtext{
+    font-size: 30px;
+    margin-left: 400px;
+}
+.sumtext{
+    font-size: 30px;
+    margin-left: 250px;
+}.piltext{
+    font-size: 30px;
+    margin-left: 250px;
 }
