@@ -71,11 +71,12 @@ function myPassword(){
   // get id
   // assign a vairble
   // if var.length != 10 {error}
-  // }
+  // .min=new Date()
 
 
 function passwordValidation() {
-    let createpass = document.getElementById("createPassword").value;
+    
+    let createpass = document.getElementById("createPassword").value; 
     let confrimpass = document.getElementById("confrimPassword").value;
 
     if (createpass == confrimpass) {

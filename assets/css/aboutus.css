@@ -1,0 +1,54 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    padding:10px;
+    color: black;
+    border-radius: 50px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: inherit;
+    margin-left: 800px;
+}
+h5{
+    font-size: 30px;
+    font-style: inherit;
+}
+h4{
+    font-size: 30px;
+    font-style: inherit;
+}
+p{
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: -20px;
+}
+p::first-letter {
+    font-size: 200%;
+}
+h3{
+    font-size: 30px;
+    margin-left: 450px;
+}
+

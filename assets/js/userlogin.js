@@ -26,6 +26,7 @@ function loginStorage() {
 
 
     if (bool) {
+        localStorage.setItem("LoginDetails", email )
         alert("successfully Logged In.")
         window.location.href = "../pages/MyAccount.html";
     }

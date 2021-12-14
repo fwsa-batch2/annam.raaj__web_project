@@ -1,0 +1,104 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    padding:10px;
+    color: black;
+    border-radius: 50px;
+}
+.container{
+    width: 625px;
+    height: 625px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: inherit;
+    margin-left: 180px;
+}
+p{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.second{
+    margin-top: -20px;
+    margin-left: 180px;
+}
+.Suggestion{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.link{
+    color: rgb(15, 159, 226);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+input{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 10px;
+   
+}
+th{
+    font-size: 20px;
+   }
+table{
+    margin-left: 10px;
+}
+.textarea{
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+}
+.follow{
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.submit{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    margin-left: 190px;
+}
+.submit:hover{
+    background-color: green;
+    color: black;
+}
