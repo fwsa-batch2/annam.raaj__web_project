@@ -1,0 +1,94 @@
+.container {
+    background-color: rgb(251, 255, 255);
+    width: 500px;
+    height: 450px;
+    border-radius: 80px;
+    margin-left: 650px;
+    margin-top: 45px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 850px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    margin-left: 80px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li :hover {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+}
+
+input {
+    width: 225px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+label {
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+
+
+h3 {
+    margin-left: 125px;
+    margin-top: 5px;
+}
+
+button {
+    height: 60px;
+    width: 150px;
+    color: black;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-left: 175px;
+
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+.test {
+    font-size: 25px;
+    margin-left: 700px;
+    margin-top: -60px;
+    font-weight: bold;
+}
+
+.test a {
+
+    color: rgb(114, 13, 114);
+}
+
+.for a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}

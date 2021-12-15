@@ -1,7 +1,7 @@
 <html>
 
 <head>
- 
+
   <title> Singapore </title>
   <style>
     body {
@@ -10,67 +10,64 @@
       background-size: 100% 100%;
       background-attachment: fixed;
     }
-
+    .bt {
+      margin-left: 800px;
+    }
     .bt:hover {
       background-color: green;
       color: white;
     }
-
-    .sg1 {
+   
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 20px;
       margin-left: 100px;
+      cursor: pointer;
     }
 
-    .sg2 {
-      margin-left: 100px;
+    .logo {
+      width: 500px;
+      height: 150px;
+      margin-left: 650px;
+      border-radius: 30px;
+    }
+    h1 {
+      text-align: center;
     }
 
-    .sg3 {
-      margin-left: 100px;
+    b {
+      font-size: 25px;
     }
-
-    .sg4 {
-      margin-left: 100px;
-    }
-
-    .sg5 {
-      margin-left: 100px;
-    }
-    .logo{
-    width: 500px;
-    height: 150px;
-    margin-left: 650px;
-    border-radius: 30px;
-   }
   </style>
 </head>
 
 <body>
   <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
-  <marquee direction="left"> <b style="font-size:45px"> Singapore Trip Details:</b> </marquee>
+  <marquee direction="left"> <b style="font-size:45px"> Singapore Trip Details:</b> </marquee>  <br><br><br><br><br>
 
-  <center>
-    <h1 style="color: rgb(121, 1, 17);"> <b>Gallery:<b> </h1>
-  </center>
+ 
 
 
   <div>
 
-    <span> <img src="./../assets/image/sg1.jpg" class="sg1" width=250px height=250px> </span>
+    <span> <img src="./../assets/image/sg1.jpg"> </span>
 
-    <span> <img src="./../assets/image/sg2.jpg" class="sg2" width=250px height=250px> </span>
+    <span> <img src="./../assets/image/sg2.jpg"> </span>
 
-    <span> <img src="./../assets/image/sg3.jpg" class="sg3" width=250px height=250px> </span>
+    <span> <img src="./../assets/image/sg3.jpg"> </span>
 
-    <span> <img src="./../assets/image/sg4.jpg" class="sg4" width=250px height=250px> </span>
+    <span> <img src="./../assets/image/sg4.jpg"> </span>
 
-    <span> <img src="./../assets/image/sg5.jpg" class="sg5" width=250px height=250px> </span>
+    <span> <img src="./../assets/image/sg5.jpg"> </span>
   </div>
-  <center>
+  
     <h1> It is a 5 days trip. <br>
-      Total trip Costs: Rupees 1,09,999
+      Starting at : &#8377; 1,09,999
     </h1> <br>
-    <b style="font-size:25px"> Stay at: MARINA BAY SANDS HOTEL<br><br>
-      Places we visit:<br><br><br>
+    <h1> Stay at: MARINA BAY SANDS HOTEL </h1> <br><br><br>
+
+      <b>Places we visit:<br><br>
       1. Night Safari Nocturnal Wildlife Park,<br><br>
       2. Marina Bay,<br><br>
       3. Singapore Flyer,<br><br>
@@ -82,30 +79,14 @@
       9. Jurong Bird Park,<br><br>
       10. Butterfly Park And Insect Kingdom,<br>
     </b>
-  </center>
+  
   <h1 style="color:#ff0000"> NOTE:-All passengers should be vaccinated.</h1>
-  <center>
+  
     <a href="./ ticket.html"> <button class="bt">
         <h1> Book Ticket </h1>
       </button> </a>
-  </center>
-  <script type="text/javascript">
-
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) { slideIndex = 1 }
-      slides[slideIndex - 1].style.display = "block";
-      setTimeout(showSlides, 2000); // Change image every 2 seconds
-    }
-
-  </script>
+  
+  
 </body>
 
 </html>

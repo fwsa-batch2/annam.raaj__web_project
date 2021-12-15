@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./../assets/css/userlogin.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,83 +16,21 @@
             background-attachment: fixed;
         }
 
-        .container {
-            background-color: rgb(251, 255, 255);
-            width: 500px;
-            height: 450px;
-            border-radius: 80px;
-            margin-left: 650px;
-            margin-top: 25px;
-        }
-
-        input {
-            width: 225px;
-            height: 50px;
-            font-size: 25px;
-            border-radius: 20px;
-            /* margin-left: 50px; */
-            margin-top: 30px;
-            padding-left: 10px;
-        }
-
-        label {
-            font-size: 25px;
-            margin-left: 40px;
-        }
-
-        /* p {
-            font-size: 25px;
-            margin-left: 25px;
-        } */
-
-        h3 {
-            margin-left: 125px;
-            margin-top: 5px;
-        }
-
-        button {
-            height: 60px;
-            width: 150px;
-            color: black;
-            border-radius: 20px;
-            font-size: 25px;
-            margin-left: 175px;
-
-        }
-
-        button:hover {
-            background-color: green;
-            color: white;
-        }
-
-        .test {
-            font-size: 25px;
-            margin-left: 700px;
-            margin-top: -60px;
-            font-weight: bold;
-        }
-
-        .test a {
-
-            color: rgb(114, 13, 114);
-        }
-
-        .for a {
-            text-decoration: none;
-            color: darkblue;
-        }
-
-        .logo {
-            width: 500px;
-            height: 150px;
-            margin-left: 650px;
-            border-radius: 30px;
-        }
+       
     </style>
 </head>
 
 <body>
     <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
+
+    <ul>
+        <li><a href="./../index.html"> Home </a></li>
+        <li><a href="./../pages/Aboutus.html"> About Us </a> </li>
+        <li> <a href="./../pages/gallery.html"> Gallery </a> </li>
+        <li> <a href="./../pages/contact us.html"> Contact Us </a></li>
+        <li> <a href="./../pages/userlogin.html"> Login </a> </li>
+    </ul>
+
     <form onsubmit="loginStorage()">
         <div class="container">
 
@@ -99,7 +38,7 @@
                 required><br>
             <label for="input2"> Email: </label><input type="email" id="input2" placeholder="Enter Your Email "
                 required><br>
-            <label for="input3"> Password: </label> <input type="password" id="input3" minlength="6" 
+            <label for="input3"> Password: </label> <input type="password" id="input3" minlength="6"
                 placeholder="Password" required>
             <br>
             <h3>forget Password? <a href="forgetpassword.html">

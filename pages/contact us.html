@@ -33,23 +33,30 @@
     <p class="link"> worldtour@tours.in</p>
     
     <p class="Suggestion"> For Suggestions:- </p>
+    <form onsubmit="submitHandler()">
   <table>
       <tr>
         <th>Email_Id:-</th>
-        <td><input type="email" name="" id="" placeholder="Enter your Email_Id"></td>
+        <td><input type="email" name="" id="email" placeholder="Enter your Email_Id" required></td>
       </tr>
       <tr>
           <th>Your Suggestions:- </th>
-          <td><input type="text" name="" id="" class="textarea" placeholder="Type your text"></td>
+          <td><input type="text" name="" id="Suggestion" class="textarea" placeholder="Type your text" required></td>
       </tr>
-      </table> 
-      <input type="submit" value="Submit" class="submit">
+      <tr>
+        <td></td> <td><input type="submit" value="Submit" class="submit"></td>
+      </tr>
+      
+      </table>
+    </form> 
+     
 
   <p class="follow">Follow us at:-</p>
-   <img src="./../assets/image/Twitter.png" alt="">
-   <img src="./../assets/image/facebook.png" alt="">
-   <img src="./../assets/image/linkedin.png" alt="">
+  <img src="./../assets/image/Twitter.png" alt="">
+  <img src="./../assets/image/facebook.png" alt="">
+  <img src="./../assets/image/linkedin.png" alt="">
 </div>
 
+<script src="./../assets/js/contactus.js"></script>
 </body>
 </html>

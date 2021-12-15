@@ -5,6 +5,27 @@
     margin-left: 650px;
     border-radius: 30px;
 }
+ul{
+    list-style-type: none;
+    margin-left: 850px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    padding:10px;
+    color: black;
+    border-radius: 50px;
+}
 img{
     border-radius: 30px;
 }
@@ -48,5 +69,4 @@ img{
 .agtext{
     margin-left: 300px;
     font-size: 25px;
-
 }
