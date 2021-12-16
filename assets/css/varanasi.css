@@ -1,0 +1,66 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+p{
+    font-size: 50px;
+    font-weight: 500;
+    font-style: inherit;
+    margin-left: 725px;
+    margin-top: 0px;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 590px;
+    margin-top: -30px;
+}
+.palce{
+    font-size: 35px;
+    font-weight: 300px;
+    margin-left: 180px;
+    padding-top: 30px;
+}
+.details{
+    font-size: 25px;
+    font-weight: 200px;
+    margin-left: 20px;
+
+}
+.payement{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 170px;
+    margin-top: -30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+}
+.net{
+    margin-left: 50px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.submit{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.back{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-left: 150px;
+}

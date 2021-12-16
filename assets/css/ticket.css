@@ -9,6 +9,25 @@
 table{
     margin-left: 17px;
 }
+button {
+    background-color: white;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 18px;
+    margin-left: 300px;
+    margin-top: -50px;
+  }
+  
+  .button1:hover {
+    background-color: green;
+    color: white;
+  }
+
+
+  .pay {
+    padding-left: 350px;
+  }
 input{
     width: 300px;
     height: 35px;
@@ -17,7 +36,6 @@ input{
     border-radius: 20px;
 }
 .file{
-    
     width: 300px;
     height: 50px;
 }

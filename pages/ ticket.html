@@ -11,26 +11,6 @@
       background-size: 100% 100%;
       background-attachment: fixed;
     }
-
-    button {
-      background-color: white;
-      padding: 10px;
-      font-size: 18px;
-      font-weight: bold;
-      border-radius: 18px;
-      margin-left: 300px;
-      margin-top: -50px;
-    }
-
-    .button1:hover {
-      background-color: green;
-      color: white;
-    }
-
-
-    .pay {
-      padding-left: 350px;
-    }
   </style>
 </head>
 
@@ -43,7 +23,7 @@
 
         <tr>
           <th> Name:</th>
-          <td> <input type="text" name="name" placeholder="Enter your  Name" minlength="3" maxlength="60" required></td>
+          <td> <input type="text" name="name" placeholder="Enter your  Name" title="Name cannot Spaces." id="name" pattern="[A-Za-z]{3,20}" required></td>
         </tr>
         <tr>
           <th>Address:</th>
@@ -54,16 +34,6 @@
           <th>Email:</th>
           <td> <input type="email" name="email_id" placeholder="Enter your Email ID" required> </td>
         </tr>
-        ​
-        <!-- <tr>
-            <th>Gender </th><td><input type="radio" name="gender" value="M" > Male </td><td> <input type="radio" name="gender" value="F" > Female </td>
-          </tr>
-
-​
-          <tr>
-           <th> Nationality </th><td><input type="radio" name="nationality" value="M"> Indian </td>
-           <td> <input type="radio" name="nationality" value="F"  > Other Country </td>
-          </tr> -->
 
         <tr>
           <th>Passport no.:</th>
@@ -77,7 +47,7 @@
         ​
         <tr>
           <th>Mobile Number: </th>
-          <td> <input type="mobile nunmber" name="mobile number" placeholder="Enter your Mobile Number" required></td>
+          <td> <input type="tel" name="mobile number" placeholder="Enter your Mobile Number" pattern="[0-9]{10}" title="mobile number must have 10 numbers & Alphabets are not accpected." required></td>
         </tr>
         ​
 
@@ -109,7 +79,7 @@
       </table>
 
 
-      <a href="webpagepayment.html"> <button class="button1"> Start Payment </button> </a>
+      <a href="webpagepayment.html"> <button class="button1"> Confirm </button> </a>
 
     </form>
   </div>

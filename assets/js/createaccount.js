@@ -10,7 +10,9 @@ function recoverDetails() {
 recoverDetails();
 
 function myPassword(){
+    
     event.preventDefault();
+    console.group("details")
 
     let uName = document.getElementById("name").value;
     let email = document.getElementById("email").value;
@@ -28,6 +30,7 @@ function myPassword(){
     }
     let isEmailAleadyExists=false;
     let array=JSON.parse(localStorage.getItem("User Credentials"));
+    console.table(array);
     for(i=0;i< list.length ;i++){
         if(array[i].email_id==email){
             isEmailAleadyExists=true;
@@ -49,10 +52,11 @@ function myPassword(){
         window.location.href = "userlogin.html"
     }
     else {
+        console.error("Passwords are different.")
         document.getElementById("pass").innerHTML = ("Passwords are different.");
     }
    
-     
+    console.groupEnd("details") 
    
      
 }
