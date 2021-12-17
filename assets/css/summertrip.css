@@ -30,15 +30,15 @@ img{
 }
 .ooty{
     margin-left: 380px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .darjeeling{
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .araku{
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .ottext{
     margin-left: 450px;
@@ -51,4 +51,12 @@ img{
 .aktext{
     margin-left: 260px;
     font-size: 25px;
+}
+footer{
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    height: 25px;
+    padding-left: 650px;
+    margin-top: 263px;
 }

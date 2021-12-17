@@ -58,3 +58,11 @@ li :hover{
     font-size: 30px;
     margin-left: 250px;
 }
+footer{
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    height: 25px;
+    padding-left: 650px;
+    margin-top: 170px;
+}
