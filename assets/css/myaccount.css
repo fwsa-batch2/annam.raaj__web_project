@@ -1,0 +1,214 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 750px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    padding:10px;
+    color: black;
+    border-radius: 50px;
+}
+
+.container {
+    background-color: rgb(251, 255, 255);
+    width: 550px;
+    height: 550px;
+    border-radius: 80px;
+    margin-left: 50px;
+    margin-top: 85px;
+}
+
+h1 {
+    color: brown;
+    font-size: 50px;
+    margin-left: 140px;
+    margin-top: 10px;
+
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.box{
+    width: 320px;
+    height: 320px;
+    border-color: black;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 800px;
+    margin-top: -470px;
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    margin-left: 170px;
+    margin-top: -30px;
+}
+/* 1st */
+.container1{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container1:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+.recent{
+    color: black;
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    margin-top: -40px;
+    
+}
+.recent a{
+    color: black;
+    text-decoration: none;
+}
+.sticker1{
+    width: 50px;
+    height: 50px;
+}
+/* 2nd */
+.container2{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container2:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+.time{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    margin-top: -55px;
+}
+.sticker2{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+/* 3rd */
+.container3{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container3:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+.discount{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    margin-top: -55px;
+}
+.sticker3{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+/* 4th */
+.container4{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container4:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+.covid{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.sticker4{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+/* 5th */
+.container5{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.container5:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+.gps{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    margin-top: -45px;
+}
+.sticker5{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+
