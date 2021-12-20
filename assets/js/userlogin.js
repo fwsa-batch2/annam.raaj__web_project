@@ -7,9 +7,9 @@ function loginStorage() {
     let bool = false;
 
     let array = JSON.parse(localStorage.getItem("User Credentials"));
-    let len = array.length;
+   
 
-    for (i = 0; i < len; i++) {
+    for (i = 0; i < array.length; i++) {
         console.log(array[i]);
         console.log(email);
         console.log(array[i].email_id);

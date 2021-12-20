@@ -1,0 +1,85 @@
+body{
+    background: rgb(103, 117, 74);
+}
+.container1{
+  width: 1000px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: white;
+}
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+.title{
+    font-size: 35px;
+    font-family: inherit;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 750px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    margin-left: 80px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: white;
+    padding:10px;
+    color: black;
+    border-radius: 50px;
+}
+.star{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.profile{
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.name{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 90px;
+
+}
+b{
+    font-size: 29px;
+    margin-left: 1  0px;
+
+}
+p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.container2{
+  width: 1000px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.container3{
+  width: 1000px;
+  height: 200px;
+  border-radius: 30px;
+  background-color: white;
+  margin-top: 5px;
+}
+
+
