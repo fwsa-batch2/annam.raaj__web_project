@@ -9,14 +9,14 @@ function loginStorage(event) {
     let array = JSON.parse(localStorage.getItem("User Credentials"));
    
 
-    for (let i = 0; i < array.length; i++) {
-        console.log(array[i]);
+    for (let i of array) {
+        console.log(i);
         console.log(email);
-        console.log(array[i].email_id);
+        console.log(i.email_id);
         console.log(password);
-        console.log(array[i].createpassWrd);
+        console.log(i.createpassWrd);
 
-        if (array[i].email_id == email && array[i].createpassWrd == password) {
+        if (i.email_id == email && i.createpassWrd == password) {
             bool = true;
             break;
         }
