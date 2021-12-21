@@ -9,7 +9,7 @@ function recoverDetails() {
 }
 recoverDetails();
 
-function myPassword(){
+function myPassword(event){
     
     event.preventDefault();
     console.group("details")

@@ -1,5 +1,5 @@
 let storage = []
-function loginStorage() {
+function loginStorage(event) {
 
     event.preventDefault();
     let email = document.getElementById("input2").value;

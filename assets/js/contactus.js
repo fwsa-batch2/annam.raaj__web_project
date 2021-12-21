@@ -1,4 +1,4 @@
-function submitHandler(){
+function submitHandler(event){
     event.preventDefault();
     let email_Id=document.getElementById("email").value;
     let suggestions=document.getElementById("Suggestion").value;
