@@ -31,7 +31,7 @@ function myPassword(){
     let isEmailAleadyExists=false;
     let array=JSON.parse(localStorage.getItem("User Credentials"));
     console.table(array);
-    for(i=0;i< list.length ;i++){
+    for(let i=0;i< list.length ;i++){
         if(array[i].email_id==email){
             isEmailAleadyExists=true;
             

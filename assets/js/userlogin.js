@@ -9,7 +9,7 @@ function loginStorage() {
     let array = JSON.parse(localStorage.getItem("User Credentials"));
    
 
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         console.log(array[i]);
         console.log(email);
         console.log(array[i].email_id);
@@ -38,11 +38,5 @@ function loginStorage() {
 }
 
 
-// function logIn() {
-//     event.preventDefault()
-//     window.location.href = "../pages/MyAccount.html";
-//     alert("Successfully Logged In ");
-
-// }
 
 
