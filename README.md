@@ -29,8 +29,12 @@
    * All input fields are required. 
    * Email id and password should match with the local storage content.
    
+   ##### * Admin Login &nbsp;&nbsp; (Completed)
+   * Here,we have to login using ADmin Credentials. 
+   * Admin_ID : WT000ADMIN
+   * Code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: FWSA
    ##### * Add new Trips  &nbsp;&nbsp; (Completed)
-   * in login page if we click on ADMIN then we will redirect to this page (working on admin login).
+   * In login page if we click on ADMIN then we will redirect to Admin_Login page.There if you give Admin Credentils then you will be redirected to this page. 
 
    * In details page we can give deatils of the trip. 
    * After clicking on submit aa the details will store in local storage.

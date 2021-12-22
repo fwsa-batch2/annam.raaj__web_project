@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png">
+    <link rel="stylesheet" href="./../assets/css/adminlogin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN LOGIN</title>
+</head>
+
+<body>
+    <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
+
+    <ul>
+        <li><a href="./../index.html"> Home </a></li>
+        <li><a href="./../pages/Aboutus.html"> About Us </a> </li>
+        <li> <a href="./../pages/gallery.html"> Gallery </a> </li>
+        <li> <a href="./../pages/contact us.html"> Contact Us </a></li>
+        <li><a href="./../pages/Review.html">Reviews</a></li>
+        <li> <a href="./../pages/userlogin.html"> Login </a> </li>
+        <li> <a href="./../pages/adminlogin.html"> Admin </a> </li>
+    </ul>
+ <p>Admin_LogIn</p>
+
+    <div class="container">
+        <form onsubmit="submitHandler(event)">
+            <input type="text" placeholder="Enter Your ID WT000ADMIN " id="idNum" required><br><br> 
+            <input type="password" name="" id="code" placeholder="Enter your Four Digit Code  FWSA" maxlength="4" title="Enter your Four digit Code" required><br><br><br>
+            <input type="reset" value="Reset" class="reset"> <input type="submit" value="Submit" class="submit">
+
+        </form>
+
+    </div>
+</body>
+<script src="./../assets/js/adminlogin.js"></script>
+</html>
