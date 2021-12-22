@@ -29,12 +29,7 @@ li :hover {
     border-radius: 50px;
 }
 
-/* .box:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-} */
+
 
 .tripInfo{
     font-size: 35px;

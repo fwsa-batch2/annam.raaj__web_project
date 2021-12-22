@@ -14,6 +14,7 @@
   * Contact us &nbsp;&nbsp;(completed)
   * Review &nbsp;&nbsp; (completed)
   * Login &nbsp;&nbsp;(completed)
+  * My Account  &nbsp;&nbsp; (Completed)
 
 ## Features:-
 
@@ -28,13 +29,23 @@
    * All input fields are required. 
    * Email id and password should match with the local storage content.
    
+   ##### * Add new Trips  &nbsp;&nbsp; (Completed)
+   * in login page if we click on ADMIN then we will redirect to this page (working on admin login).
+
+   * In details page we can give deatils of the trip. 
+   * After clicking on submit aa the details will store in local storage.
+   * After it will redirect to list of trips page the we get the details from local storage and store in that page.
+   * if we click on the particular trip we can book ticket. 
+
    
    ##### * Contact us &nbsp;&nbsp; (Completed)
    * All input fields are required.
-   * After submiting , It will give a alert.
-   ##### * Review page &nbsp;&nbsp; (Completed)
-   * we can see the reviews of the tourists.
+   * Adeed some JavaScript.
+   * After submiting , It will give an alert.
+   ##### * Review page &nbsp;&nbsp; (In progress)
+   * we can see the reviews of the tourists. (static)
+   * (Trying to implement JavaScript and make the page dynamic.)
    ##### * Package Details &nbsp;&nbsp; (Need to modify)
    * Can view the brief details of the trip.
    * Can see Pick up point ,Date & Time.
-   * can Know about the hotel on breif.
+   * Can Know about the hotel on breif.
