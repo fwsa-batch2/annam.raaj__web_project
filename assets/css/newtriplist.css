@@ -1,0 +1,64 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+ul {
+    list-style-type: none;
+    margin-left: 750px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li {
+    float: left;
+    margin-left: 80px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li :hover {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border-radius: 50px;
+}
+
+/* .box:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+} */
+
+.tripInfo{
+    font-size: 35px;
+    align-items: center;
+    display: inline-flex;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 1150px;
+    height: 70px;
+    margin-top: 50px;
+    border: 2px solid black; 
+    margin-left: 50px;
+}
+.link{
+ color: black;
+ text-decoration: none;
+}
+.tripInfo:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+   
+.tripInfo p {
+    padding-left: 30px;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png">
+    <link rel="stylesheet" href="./../assets/css/new trip details.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> NEW TRIP DETAILS</title>
+    <style>
+        body {
+            background-image: url("./../assets/image/newtrip.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="./../assets/image/logo.png" alt="" class="logo"> <p class="admin"> <img src="./../assets/image/admin.png" alt="admin" class="profile"> Welcome Admin</p> </header>
+
+    <ul>
+        <li><a href="./../index.html"> Home </a></li>
+        <li><a href="./../pages/Aboutus.html"> About Us </a> </li>
+        <li> <a href="./../pages/gallery.html"> Gallery </a> </li>
+        <li> <a href="./../pages/contact us.html"> Contact Us </a></li>
+        <li><a href="./../pages/Review.html">Reviews</a></li>
+        <li> <a href="./../pages/userlogin.html"> Login </a> </li>
+    </ul>
+    
+   <p class="info"> New Trips Adding Page:-</p> 
+
+   <form onsubmit="newTripList(event)">
+       <input type="text" placeholder=" New Place"  id="newPlace" required>
+       <input type="text" placeholder="Starting Price in INR" id="price" required>
+       <input type="text" placeholder="Guide Name" id="guideName" required> <br> <br>
+       <input type="text" placeholder="Pick Up Point " id="pickUp" required>
+
+     <div>
+         <input type="reset" value="Reset" class="reset">
+         <input type="submit" value="Submit" class="submit">
+     </div>  
+   </form>
+
+
+</form>
+<script src="./../assets/js/newtrip.js"></script>
+</body>
+
+</html>
