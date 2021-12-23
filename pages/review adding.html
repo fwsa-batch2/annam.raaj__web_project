@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png">
+    <link rel="stylesheet" href="./../assets/css/reviewadding.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customer Reviews</title>
+    <style>
+         
+    </style>
+</head>
+<body>
+    <header><img src="./../assets/image/logo.png" alt="" class="logo"></header>
+
+    <ul>
+        <li><a href="./../index.html"> Home </a></li>
+        <li><a href="./../pages/Aboutus.html"> About Us </a> </li>
+        <li> <a href="./../pages/gallery.html"> Gallery </a> </li>
+        <li> <a href="./../pages/contact us.html"> Contact Us </a></li>
+        <li><a href="./../pages/Review.html">Reviews</a></li>
+        <li> <a href="./../pages/userlogin.html"> Login </a> </li>    
+    </ul>
+<p class="info">Reviews pages</p>
+
+<form onsubmit="reviewList(event)">
+    <input type="text" placeholder="User Name"  id="uName" required> <br><br>
+    <textarea name="" id="review" cols="30" rows="10" placeholder="Type Your Reviews"  required></textarea>
+
+    <div>
+        <input type="reset" value="Reset" class="reset">
+        <input type="submit" value="Submit" class="submit">
+    </div>  
+
+</form>
+<script src="./../assets/js/reviewadding.js"></script>
+</body>
+</html>

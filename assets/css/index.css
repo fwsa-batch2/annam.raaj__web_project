@@ -65,5 +65,11 @@ footer{
     font-size: 20px;
     height: 25px;
     padding-left: 650px;
-    margin-top: 170px;
+    margin-top: 70px;
+}
+p{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 770px;
+    margin-top: 70px;
 }
