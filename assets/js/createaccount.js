@@ -17,16 +17,14 @@ function myPassword(event){
     let uName = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let createpass = document.getElementById("createPassword").value;
-    let confrimpass = document.getElementById("confrimPassword").value;
-    let date = document.getElementById("dob").value;
-    let moblienum = document.getElementById("mobile").value;
+    
+    
     let userDetails = {
         "userName": uName,
         "email_id": email,
         "createpassWrd": createpass,
-        "confrimpassWrd": confrimpass,
-        "dateOfBrith": date,
-        "mobileNum": moblienum
+       
+        
     }
     let isEmailAleadyExists=false;
     let array=JSON.parse(localStorage.getItem("User Credentials"));
