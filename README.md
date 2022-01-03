@@ -24,6 +24,7 @@
    * Moblie number validation is done.
    * Email id entered must not exist in local storage already.
    * Password and Confirm password fields must contain same value.
+   * User sholud atleast have 10 years to create an account.
 
    ##### * Login page &nbsp;&nbsp; (Completed)
    * All input fields are required. 
