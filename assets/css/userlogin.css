@@ -1,10 +1,10 @@
 .container {
     background-color: rgb(251, 255, 255);
     width: 500px;
-    height: 450px;
+    height: 470px;
     border-radius: 80px;
     margin-left: 650px;
-    margin-top: 85px;
+    margin-top: 65px;
 }
 
 ul {
@@ -33,13 +33,21 @@ li :hover {
 }
 
 input {
-    width: 225px;
+    width: 240px;
     height: 50px;
     font-size: 25px;
     border-radius: 20px;
-
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left: 10px;
+}
+#showPassword{
+    height: 20px;
+    margin-left: 85px;
+}
+.showpass{
+    margin-top: -25px;
+    margin-left: 220px;
+    font-size: 20px;
 }
 
 label {
@@ -47,16 +55,15 @@ label {
     margin-left: 40px;
 }
 
-
-
 h3 {
-    margin-left: 125px;
+    margin-left: 150px;
     margin-top: 5px;
 }
 
 button {
     height: 60px;
     width: 150px;
+    background-color: white;
     color: black;
     border-radius: 20px;
     font-size: 25px;
@@ -85,7 +92,12 @@ button:hover {
     text-decoration: none;
     color: darkblue;
 }
-
+#input1{
+    margin-left: 30px;
+}
+#input2{
+    margin-left: 30px;
+}
 .logo {
     width: 500px;
     height: 150px;

@@ -7,7 +7,7 @@ function loginStorage(event) {
     let bool = false;
 
     let array = JSON.parse(localStorage.getItem("User Credentials"));
-   
+
 
     for (let i of array) {
         console.log(i);
@@ -26,7 +26,7 @@ function loginStorage(event) {
 
 
     if (bool) {
-        localStorage.setItem("LoginDetails", email )
+        localStorage.setItem("LoginDetails", email)
         alert("successfully Logged In.")
         window.location.href = "../pages/MyAccount.html";
     }
@@ -38,5 +38,14 @@ function loginStorage(event) {
 }
 
 
-
+function show() {
+    let showPassword = document.getElementById("input3");
+   
+    if (showPassword.type === "password") {
+        showPassword.type = "text";
+    }
+    else {
+        showPassword.type = "password";
+    }
+}
 
