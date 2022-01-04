@@ -79,7 +79,7 @@ function myPassword(event){
 function passwordValidation() {
     
     let createpass = document.getElementById("createPassword").value; 
-    let confrimpass = document.getElementById("confrimPassword").value;
+    let confrimpass = document.getElementById("confirmPassword").value;
 
     if (createpass == confrimpass) {
         console.log(" Your Password matched")

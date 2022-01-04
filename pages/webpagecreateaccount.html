@@ -39,12 +39,12 @@
     <table style="color:#000000" ; >
   <caption></caption>
       <tr>
-        <th id="nam"> Name:</th>
-        <td> <input type="text" name="name" placeholder="Enter your  Name" title="Name should contain only alphabets." id="name" pattern="[A-Za-z]{3,20}"  required></td>
+        <th id="nam">User Name:</th>
+        <td> <input type="text" name="name" placeholder="Enter your  Name" title="Name should contain only alphabets." id="name" pattern="[A-Za-z ]{3,20}"  required></td>
       </tr>
       <tr>
         <th id="adres">Address:</th>
-        <td> <input type="text" name="address" placeholder="Enter your Address"></td>
+        <td> <textarea  name="address" cols="30" rows="10" placeholder="Enter your Address"></textarea></td>
       </tr>
       ​
       <tr>
@@ -66,8 +66,8 @@
 
       <tr>
         <th id="copas">Confirm Password:</th>
-        <td> <input type="password" name="confirm password" id="confrimPassword" minlength="8" 
-            placeholder=" Confrim Your Password" required> </td>
+        <td> <input type="password" name="confirm password" id="confirmPassword" minlength="8" 
+            placeholder=" confirm Your Password" required> </td>
       </tr>
       <tr>
         <td>
@@ -96,26 +96,26 @@
       ​
       <tr>
         <th id="gen">Gender</th><td> <select name="no. of people">
-        <option value="s">--SELECT--</option>
-        <option value="s">Male</option>
-        <option value="m">Female</option>
-        <option value="m">Transgender</option>
+        <option value="select">--SELECT--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="transgender">Transgender</option>
       </select></td>
     </tr>
       ​
       <tr>
         <th id="nation">Nationality</th><td> <select name="no. of people">
-        <option value="s">--SELECT--</option>
-        <option value="s">Indian</option>
-        <option value="m">American</option>
-        <option value="m">Australian</option>
-        <option value="m">Chinese</option>
-        <option value="m">European</option>
-        <option value="m">French</option>
-        <option value="m">Italian</option>
-        <option value="m">Japanese</option>
-        <option value="m">Kuwaiti</option>
-        <option value="m">Russian</option>
+        <option value="select">--SELECT--</option>
+        <option value="indian">Indian</option>
+        <option value="american">American</option>
+        <option value="australian">Australian</option>
+        <option value="chinese">Chinese</option>
+        <option value="european">European</option>
+        <option value="french">French</option>
+        <option value="italian">Italian</option>
+        <option value="Japanese">Japanese</option>
+        <option value="juwaiti">Kuwaiti</option>
+        <option value="russian">Russian</option>
       </select></td>
     </tr>
       ​
@@ -123,7 +123,7 @@
         <td></td>
        
           <td> <input type="reset" name="reset" value="Reset" class="earse"> </td>
-          <td> <a href="userlogin.html"> <button class="button1">SUBMIT </button> </a></td>
+          <td> <button class="button1">SUBMIT </button> </td>
       </tr>
      
     </table> <br><br><br>
