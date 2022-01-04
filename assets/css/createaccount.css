@@ -46,7 +46,7 @@ button{
     
     
 }
-.earse{
+.erase{
     background-color: white;
     width: 150px;
     height: 50px;
@@ -54,7 +54,7 @@ button{
     margin-top: 10px;
     font-weight: bold;
 }
-.earse:hover{
+.erase:hover{
     background-color: red;
     color: white;
 }
