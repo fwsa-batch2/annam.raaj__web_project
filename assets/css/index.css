@@ -10,7 +10,7 @@ img:hover{
     transform: scale(1.2);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position:relative;
-    transition: 0.25s;
+    transition: 0.9s;
 }
 .logo:hover{
     transform: scale(1.0);   
@@ -22,25 +22,37 @@ img:hover{
 }
 ul{
     list-style-type: none;
-    margin-left: 750px;
+    margin-left: 1000px;
     margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
 }
 li{
     float: left;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 li a{
     text-decoration: none;
+    border: 0 10px;
+    
     color: black;
+    position: relative;
 }
-li :hover{
-    background-color: white;
-    padding:10px;
-    color: black;
-    border-radius: 50px;
+ul li .decoration::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px;
+    width: 0;
+    background: black;
+    transition: 0.5s;
+
 }
+ul li a:hover::before {
+    width: 100%;
+}
+
 .holidaytrip{
     margin-left: 300px;
    

@@ -7,29 +7,37 @@
     margin-top: 65px;
 }
 
-ul {
+ul{
     list-style-type: none;
-    margin-left: 550px;
+    margin-left: 900px;
     margin-top: 10px;
     font-size: 25px;
     font-weight: bold;
 }
-
-li {
+li{
     float: left;
-    margin-left: 80px;
+    margin-left: 40px;
 }
-
-li a {
+li a{
     text-decoration: none;
+    border: 0 10px;
+    
     color: black;
+    position: relative;
 }
+ul li .decoration::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px;
+    width: 0;
+    background: black;
+    transition: 0.5s;
 
-li :hover {
-    background-color: white;
-    padding: 10px;
-    color: black;
-    border-radius: 50px;
+}
+ul li a:hover::before {
+    width: 100%;
 }
 
 input {
@@ -39,6 +47,9 @@ input {
     border-radius: 20px;
     margin-top: 20px;
     padding-left: 10px;
+}
+input:hover{
+    transform: scale(1.1);
 }
 #showPassword{
     height: 20px;
@@ -63,17 +74,17 @@ h3 {
 button {
     height: 60px;
     width: 150px;
-    background-color: white;
-    color: black;
+    background-color:rgb(11, 155, 11);
+    color: white;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 175px;
 
 }
 
 button:hover {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .test {
@@ -93,10 +104,13 @@ button:hover {
     color: darkblue;
 }
 #input1{
-    margin-left: 30px;
+    margin-left: 10px;
 }
 #input2{
     margin-left: 30px;
+}
+#input3{
+    margin-left: 23px;
 }
 .logo {
     width: 500px;

@@ -36,3 +36,22 @@ function forgetPassword(event){
   
     
 }
+
+function show() {
+    let showPassword = document.getElementById("cofrimPassword");
+    let showCreatePassword = document.getElementById("createPassword");
+
+    if(showCreatePassword.type === "password"){
+        showCreatePassword.type = "text";
+    }
+    else{
+        showCreatePassword.type = "password"
+    }
+   
+    if (showPassword.type === "password") {
+        showPassword.type = "text";
+    }
+    else {
+        showPassword.type = "password";
+    }
+}

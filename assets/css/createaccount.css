@@ -14,6 +14,9 @@ textarea{
     font-size: 25px;
     border-radius: 20px;
 }
+textarea:hover{
+    transform: scale(1.1);
+}
 input{
     width: 355px;
     height: 50px;
@@ -21,23 +24,29 @@ input{
     font-size: 25px;
     border-radius: 20px;
 }
+input:hover{
+    transform: scale(1.1);
+}
 select{
-    width: 355px;
+    width: 370px;
     height: 50px;
     padding-left: 10px;
     background-color: white;
     font-size: 25px;
     border-radius: 20px;
 }
+select:hover{
+    transform: scale(1.1);
+}
 th{
     font-size: 25px;
     margin-left: 10px;
 }
 button{
-    background-color: white;
+    background-color: rgb(11, 155, 11);
     height: 60px;
     width: 150px;
-    color: black;
+    color: white;
     border-radius: 20px;
     font-size: 25px;
     margin-left: -200px;
@@ -46,17 +55,23 @@ button{
     
     
 }
-.erase{
+button:hover {
     background-color: white;
+    color: black;
+  }
+
+.erase{
+    background-color: red;
+    color: white;
     width: 150px;
-    height: 50px;
+    height: 60px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 17px;
     font-weight: bold;
 }
 .erase:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
 }
 #pass{
     margin-left: 120px;
@@ -77,6 +92,15 @@ footer{
     padding-left: 650px;
     margin-top: 15px;
 }
-.cap{
-    display: none;
+#showPassword{
+height: 20px;
+margin-left: -70px;
+}
+#showPassword:hover{
+    transform: scale(1.0);
+}
+.showpasswordText{
+    margin-top: -23px;
+    margin-left: 120px;
+    font-size: 18px;
 }

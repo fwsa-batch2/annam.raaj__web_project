@@ -1,31 +1,38 @@
 body{
     background-color: rgb(36, 34, 34);
 }
-ul {
+ul{
     list-style-type: none;
-    margin-left: 550px;
-    margin-top: 20px;
+    margin-left: 900px;
+    margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
-        
 }
-
-li {
-    color: white;
+li{
     float: left;
-    margin-left: 80px;
-}
-
-li a {
-    text-decoration: none;
+    margin-left: 40px;
     color: white;
 }
+li a{
+    text-decoration: none;
+    border: 0 10px;
+    
+    color: white;
+    position: relative;
+}
+ul li .decoration::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px;
+    width: 0;
+    background: white;
+    transition: 0.5s;
 
-li :hover {
-    background-color: white;
-    padding: 10px;
-    color: black;
-    border-radius: 50px;
+}
+ul li a:hover::before {
+    width: 100%;
 }
 .logo {
     width: 500px;

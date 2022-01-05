@@ -20,14 +20,15 @@
       height: 350px;
       border-radius: 80px;
       margin-left: 550px;
-      margin-top: 25px;
+      margin-top: 75px;
     }
+
     .logo {
-    width: 500px;
-    height: 150px;
-    margin-left: 650px;
-    border-radius: 30px;
-}
+      width: 500px;
+      height: 150px;
+      margin-left: 650px;
+      border-radius: 30px;
+    }
 
     p {
       font-size: 50px;
@@ -61,47 +62,67 @@
       color: black;
 
     }
-    ul{
-    list-style-type: none;
-    margin-left: 750px;
-    margin-top: 10px;
-    font-size: 25px;
-    font-weight: bold;
-}
-li{
-    float: left;
-    margin-left: 80px;
-}
-li a{
-    text-decoration: none;
-    color: black;
-}
-li :hover{
-    background-color: white;
-    padding:10px;
-    color: black;
-    border-radius: 50px;
-}
+
+    ul {
+      list-style-type: none;
+      margin-left: 1000px;
+      margin-top: 30px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    li {
+      float: left;
+      margin-left: 40px;
+    }
+
+    li a {
+      text-decoration: none;
+      border: 0 10px;
+
+      color: black;
+      position: relative;
+    }
+
+    ul li .decoration::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 4px;
+      width: 0;
+      background: black;
+      transition: 0.5s;
+
+    }
+
+    ul li a:hover::before {
+      width: 100%;
+    }
   </style>
 </head>
 
 <body>
-  <a href="./../index.html"><header><img src="./../assets/image/logo.png" alt="logo" class="logo"></header></a>
+  <a href="./../index.html">
+    <header><img src="./../assets/image/logo.png" alt="logo" class="logo"></header>
+  </a>
 
   <ul>
-    <li><a href="./../index.html"> Home </a></li>
-    <li><a href="./../pages/Aboutus.html"> About Us </a> </li>
-    <li> <a href="./../pages/gallery.html"> Gallery </a> </li>
-    <li> <a href="./../pages/contact us.html"> Contact Us </a></li>
-    <li><a href="./../pages/review adding.html">Reviews</a></li>
-    <li> <a href="./../pages/userlogin.html"> Login </a> </li>
-</ul>
+    <li><a href="./../index.html" class="decoration"> Home </a></li>
+    <li><a href="./../pages/Aboutus.html" class="decoration"> About Us </a> </li>
+    <li> <a href="./../pages/gallery.html" class="decoration"> Gallery </a> </li>
+    <li> <a href="./../pages/contact us.html" class="decoration"> Contact Us </a></li>
+    <li><a href="./../pages/review adding.html" class="decoration">Reviews</a></li>
+    <li> <a href="./../pages/userlogin.html" class="decoration"> Login </a> </li>
+  </ul>
 
   <div class="container">
     <p>Ticket Booked Successful</p>
     <p class="text"> Your ticket will be sent to your registered mail.</p>
-    <p class="text2"> <img src="./../assets/image/ques.png" alt="question" width="30px" height="30px"> For any querries: </p>
-    <p class="text3">Kindly come to us trough <strong style="color: rgb(59, 131, 224);"> @worldtourhelpdesk.</strong> </p>
+    <p class="text2"> <img src="./../assets/image/ques.png" alt="question" width="30px" height="30px"> For any querries:
+    </p>
+    <p class="text3">Kindly come to us trough <strong style="color: rgb(59, 131, 224);"> @worldtourhelpdesk.</strong>
+    </p>
   </div>
 
   <p class="text4">Happy Journey. </p>
