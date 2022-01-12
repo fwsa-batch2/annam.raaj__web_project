@@ -47,6 +47,7 @@ function myPassword(event){
         list.push(userDetails);
         const accountDetails = JSON.stringify(list);
         localStorage.setItem("User Credentials", accountDetails);
+        alert("successfully Registered")
         window.location.href = "userlogin.html"
     }
     else {

@@ -1,0 +1,107 @@
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 1000px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+   
+    
+}
+li{
+    
+    float: left;
+    margin-left: 40px;
+}
+li a{
+    text-decoration: none;
+    border: 0 10px;
+    color: rgb(146, 238, 241);
+    position: relative;
+}
+ul li .decoration::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 4px;
+    width: 0;
+    background: white;
+    transition: 0.5s;
+
+}
+ul li a:hover::before {
+    width: 100%;
+}
+.container{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-top: 150px;
+
+}
+.title{
+    font-size: 48px;
+    margin-left: 100px;
+    color: red;
+    
+}
+.point1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.hand{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+.point2{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.sanitizer{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}
+.point3{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.mask{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}
+.point4{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.distance{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}
+.point5{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -60px;
+}
+.vaccination{
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+}

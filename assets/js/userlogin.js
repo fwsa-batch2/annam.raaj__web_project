@@ -8,6 +8,7 @@ function loginStorage(event) {
 
     let array = JSON.parse(localStorage.getItem("User Credentials"));
 
+let object={}
 
     for (let i of array) {
         console.log(i);
@@ -18,6 +19,7 @@ function loginStorage(event) {
 
         if (i.email_id == email && i.createpassWrd == password) {
             bool = true;
+            object=i
             break;
         }
     }
@@ -25,8 +27,9 @@ function loginStorage(event) {
     console.log(bool)
 
 
+
     if (bool) {
-        localStorage.setItem("LoginDetails", email)
+        localStorage.setItem("LoginDetails", JSON.stringify(object))
         alert("successfully Logged In.")
         window.location.href = "../pages/MyAccount.html";
     }
