@@ -1,3 +1,4 @@
+
 .logo {
     width: 500px;
     height: 150px;
@@ -86,8 +87,9 @@ p {
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
-    text-decoration: none;
+    
 }
+
 .container1:hover{
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -151,7 +153,9 @@ p {
     margin-left: 10px;
     margin-top: 10px;
     cursor: pointer;
+    
 }
+
 .container3:hover{
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
