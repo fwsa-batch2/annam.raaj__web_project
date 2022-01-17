@@ -1,5 +1,4 @@
 
-
 function holidayTrip(event){
     event.preventDefault();
 

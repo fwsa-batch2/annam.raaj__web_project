@@ -40,7 +40,7 @@ ul li a:hover::before {
     font-size: 50px;
     font-weight: 500;
     font-style: inherit;
-    margin-left: 700px;
+    text-align: center;
 }
 h5{
     font-size: 30px;
