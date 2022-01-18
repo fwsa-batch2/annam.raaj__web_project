@@ -41,7 +41,7 @@
 
    * In new trip adding  page admin can give details of the trip like place name , guide name , pick up point. 
    * After clicking on submit all the details will store in local storage.
-  ######  * New trips page (Completed)
+  #####  * New trips page (Completed)
    * In home page if we click on new trips we will be redirected to this page. 
    * In this page new  trips will be dispalyed which were added by admin.
    * If we click on the particular trip we can book ticket. 
