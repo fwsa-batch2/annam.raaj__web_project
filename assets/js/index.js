@@ -42,4 +42,4 @@ function pilgrimageTrip(event){
         alert("Login to View the trips");
         window.location.href = "./../pages/userlogin.html"
     }
-}
+}   
