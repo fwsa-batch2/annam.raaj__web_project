@@ -49,11 +49,12 @@ ul li a:hover::before {
 }
 .info{
     font-size: 45px;
-    margin-left: 650px;
+    text-align: center;
     margin-top: 180px;
 }
 
 input{
+    border-radius: 10px;
     width: 400px;
     height: 50px;
     font-size: 25px;
@@ -61,31 +62,50 @@ input{
     outline: none;  
     border:none;
     border-bottom: 2px solid black;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+    
     
 }
 input:hover{
-    background-color: white ;
+    
     border-radius: 20px;
     padding-left: 10px;
 }
 .submit{
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    color: white;
     border-color: black;
     border: 2px solid black;
     outline: black;
     border-radius: 20px;
+    margin-left: 30px;
 }
 .submit:hover{
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .reset{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
     border-color: black;
     border: 2px solid black;
     border-radius: 20px;
+    margin-left: 110px;
 }
 .reset:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
+}
+
+.container{
+    background-color: rgb(231, 224, 224);
+    width: 570px;
+    height: 450px;
+    border-radius: 20px;
+    margin-left: 620px;
 }

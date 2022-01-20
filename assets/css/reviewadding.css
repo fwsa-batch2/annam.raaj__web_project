@@ -1,5 +1,5 @@
 body{
-    background-color: skyblue;
+    background-color: rgb(19, 170, 150);
 }
 ul{
     list-style-type: none;
@@ -41,7 +41,7 @@ ul li a:hover::before {
 }
 .info{
     font-size: 45px;
-    margin-left: 750px;
+    text-align: center;
     margin-top: 80px;
 }
 input{
@@ -49,24 +49,35 @@ input{
     height: 50px;
     font-size: 25px;
     background-color: transparent;
-      
-    border: 2px solid black;
+    border: none;
+    outline: none;
+    padding-left: 10px;
     border-bottom: 2px solid black;
-    margin-left: 700px;
-    margin-top: 100px;
+    margin-left: 40px;
+    margin-top: 30px;
     
 }
 textarea{
-    background-color: white ;
-    width: 1500px;
-    height: 80px;
+    background-color: transparent ;
+    width: 400px;
+    height: 50px;
     font-family: inherit;
-    margin-left: 100px;
-    border-radius: 20px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
     font-size: 25px;
+    margin-top: 20px;
+    padding-top: 20px;
     padding-left: 20px;
 }
+textarea::-webkit-scrollbar{
+    display: none;
+}
 .submit{
+    background-color: green;
+    color: white;
+    width: 150px;
     border-color: black;
     border: 2px solid black;
     outline: black;
@@ -74,16 +85,26 @@ textarea{
     margin-left: 20px;
 }
 .submit:hover{
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .reset{
+    background-color: red;
+    color: white;
+    width: 150px;
     border-color: black;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 500px;
+    margin-left: 85px;
 }
 .reset:hover{
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: black;
+}
+.container{
+width: 500px;
+height: 400px;
+background-color: rgb(246, 242, 242);
+border-radius: 20px;
+margin-left: 650px;
 }

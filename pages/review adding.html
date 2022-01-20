@@ -9,7 +9,7 @@
     <title> Customer Reviews</title>
     
 </head>
-<body>
+<body> 
     <header><a href="./../index.html"><img src="./../assets/image/logo.png" alt="" class="logo"></a></header>
 
     <ul>
@@ -20,18 +20,21 @@
         <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
         <li> <a href="./../pages/userlogin.html" class="decoration"> Login </a> </li>     
     </ul>
-<p class="info">Reviews pages</p>
-
-<form onsubmit="reviewList(event)">
-    <input type="text" placeholder="User Name" autofocus id="uName" required> <br><br>
-    <textarea name="" id="review" cols="30" rows="10" placeholder="Type Your Reviews"  required></textarea>
+<p class="info">You Can Type Your Reviews Here:-</p>
+<div class="container">
+    
+   <form onsubmit="reviewList(event)">
+    <input type="text" placeholder="Please Enter Your Name" autofocus id="uName" title="Please Enter A Valid Place. "  pattern="[A-Za-z ]{3,20}" required> <br><br>
+    <textarea name="textbox" id="review" cols="30" rows="10" placeholder="Type Your Reviews" required></textarea>
 
     <div>
         <input type="reset" value="Reset" class="reset">
         <input type="submit" value="Submit" class="submit">
     </div>  
 
-</form>
+   </form>
+
+</div>
 <script src="./../assets/js/reviewadding.js"></script>
 </body>
 </html>

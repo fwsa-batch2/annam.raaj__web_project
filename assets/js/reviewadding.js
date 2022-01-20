@@ -13,7 +13,10 @@ function reviewList(event) {
   
   let userName = document.getElementById("uName").value;
   let customerReview = document.getElementById("review").value;
-  
+  if(customerReview.trim() == "" ){
+    alert("!!!Review Cannot Be Empty!!!")
+    return null;
+  }
   
 
      
@@ -34,3 +37,5 @@ function reviewList(event) {
 }
 
 pageOnLoad()
+
+

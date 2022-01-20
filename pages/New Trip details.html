@@ -9,7 +9,7 @@
     <title> NEW TRIP DETAILS</title>
     <style>
         body {
-            background-image: url("./../assets/image/newtrip.jpeg");
+            background-image: url("./../assets/image/newtripdetails.jpeg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-attachment: fixed;
@@ -30,11 +30,23 @@
     
    <p class="info"> New Trips Adding Page:-</p> 
 
+
+   <div class="container">
+
+   
    <form onsubmit="newTripList(event)">
-       <input type="text" placeholder=" New Place"  id="newPlace" required>
-       <input type="number" pattern="[0-9]" placeholder="Starting Price in INR" id="price" required>
-       <input type="text" placeholder="Guide Name" id="guideName" required> <br> <br>
-       <input type="text" placeholder="Pick Up Point " id="pickUp" required>
+       <input type="text" placeholder=" New Place" autofocus
+       title="Please Enter A Valid Place. "  pattern="[A-Za-z ]{3,20}" id="newPlace" required>
+
+       <input type="url" name="trip Image" id="tripImage" placeholder="Enter The Image URL ">
+
+       <input type="number" pattern="[0-9]" placeholder="Starting Price in INR"   min="5000" title="Please Enter valid Amount" id="price" required>
+
+
+       <input type="text" placeholder="Guide Name" title="Please Enter Valid Name."  pattern="[A-Za-z ]{3,20}"  id="guideName" required> <br> 
+
+
+       <input type="text" placeholder="Pick Up Point " title="Please Enter A Valid Pick Up Point."  pattern="[A-Za-z ]{3,20}" id="pickUp" required>
 
      <div>
          <input type="reset" value="Reset" class="reset">
@@ -43,7 +55,7 @@
    </form>
 
 
-</form>
+
 <script src="./../assets/js/newtrip.js"></script>
 </body>
 

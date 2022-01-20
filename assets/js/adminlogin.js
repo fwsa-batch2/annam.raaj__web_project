@@ -6,7 +6,7 @@ function submitHandler(event){
    let id=document.getElementById("idNum").value;
    let passcode=document.getElementById("code").value;
    if(userId == id && code == passcode){
-       alert("Welcome Admin.It's Long time seen you."); 
+       alert("Welcome Admin!!!"); 
        window.location.href="./../pages/New Trip details.html"  
    }
    else{

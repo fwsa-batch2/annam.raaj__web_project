@@ -7,11 +7,16 @@ for(let i of customerReviews){
     
     
     reviews += 
-    "<div class='container3' id=\"review\"><img src='./../assets/image/admin.png' alt='user' class='profile'><p class='name'>" + nameOfUser +
-    "</p><p><strong> Comment:</strong>" + customersReview +
-     "</p><p class='star'> <strong> Rating:- </strong> &#9733; &#9733; &#9733; &#9733; &#9733; </p></div>"
     
+    
+
+     `<div class="container4" id="review">
+        <img src="./../assets/image/admin.png" alt="user" class="profile">
+        <p class="name">${nameOfUser}</p>
+        <p><strong> Comment:</strong> ${customersReview} </p>
+        <p class="star"> <strong> Rating:- </strong> &#9733; &#9733; &#9733; &#9733; &#9733; </p>
+    </div>`
 }
 
-let div = document.getElementById("review");
-div.innerHTML = reviews;
+let div = document.getElementById("MainBox");
+div.innerHTML += reviews;

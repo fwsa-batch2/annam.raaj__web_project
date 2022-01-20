@@ -1,12 +1,16 @@
 
 body{
-    background: rgb(103, 117, 74);
+    background: rgb(146, 173, 91);
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 .container1{
-  width: 1000px;
+  width: 1830px;
   height: 200px;
   border-radius: 30px;
   background-color: white;
+ 
 }
 .logo {
     width: 500px;
@@ -17,7 +21,7 @@ body{
 .title{
     font-size: 35px;
     font-family: inherit;
-    margin-left: 750px;
+    text-align: center;
     margin-top: 100px;
 }
 ul{
@@ -79,37 +83,45 @@ p{
     margin-left: 10px;
 }
 .container2{
-  width: 1000px;
+  width: 1830px;
   height: 200px;
   border-radius: 30px;
   background-color: white;
   margin-top: 5px;
+  
 }
 
 .container3{
-  width: 1000px;
+  width: 1830px;
   height: 200px;
   border-radius: 30px;
   background-color: white;
   margin-top: 5px;
+  
+  
 }
-.box2{
+.container4{
+    overflow: scroll;
+}
+.container4::-webkit-scrollbar{
+    display: none;
+}
+#review{
+    width: 1830px;
+    height: 200px;
+    border-radius: 30px;
     background-color: white;
-    width: 500px;
-    height: 70px;
-    float: right;
-    margin-right: 100px;
-    margin-top: -500px;
-    border-radius: 20px;
-   
+    margin-top: 5px;
+    
 }
 .text{
-    font-size: 25px;
+    font-size: 35px;
+    font-weight: 900px;
     margin-left: 30px;
     margin-top: 20px;
+    text-align: center;
 }
 a{
-    color: black;
-    text-decoration: none;
+    color: blue;
 }
 
