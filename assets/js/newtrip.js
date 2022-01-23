@@ -26,6 +26,20 @@ function newTripList(event) {
     "pickUpPoint": pickUpPoint,
     
   };
+  let isPlaceALreadyExists=false;
+  let array = JSON.parse(localStorage.getItem("details"));
+  for(let i=0; i<newTripDetails.length; i++){
+    if(array[i].placeName === tripName){
+      isPlaceALreadyExists=true;
+
+      break;
+    }
+  }
+
+  if(isPlaceALreadyExists){
+    alert("Please Do Not Enter Place That Already Exists!!!");
+    return;
+  }
 
   newTripDetails.push(tripAddingdetails);
   localStorage.setItem("details", JSON.stringify(newTripDetails));

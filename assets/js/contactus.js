@@ -5,7 +5,7 @@ function submitHandler(event){
     
     console.log(email_Id);
     console.log(suggestions);
-    alert("Recived Your Suggestion.");
+    alert("Recived Your Questions.");
     window.location.href= "./../index.html"
 
 }

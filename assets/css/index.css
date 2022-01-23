@@ -15,6 +15,7 @@ img:hover{
 .logo:hover{
     transform: scale(1.0);   
 }
+
 .logo{
     width: 500px;
     height: 150px;
@@ -22,14 +23,16 @@ img:hover{
 }
 ul{
     list-style-type: none;
-    margin-left: 1000px;
+    margin-left: 850px;
     margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
+   
 }
 li{
     float: left;
     margin-left: 40px;
+    margin-bottom: 135px;
 }
 li a{
     text-decoration: none;
@@ -80,11 +83,29 @@ footer{
     font-size: 20px;
     height: 25px;
     padding-left: 650px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 p{
     font-size: 25px;
     font-family: inherit;
     margin-left: 770px;
     margin-top: 70px;
+
+}
+.search{
+    width: 600px;
+    height: 40px;
+    font-size: 23px;
+    margin-left: 20px;    
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.search:hover{
+    background-color: transparent;
+    width: 610px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    border-radius: 0px;
+
 }

@@ -14,3 +14,14 @@ let customerDetails = JSON.parse(localStorage.getItem("LoginDetails"));
 
 let div = document.getElementById("userdetails");
 div.innerHTML = user;
+
+
+function logOut(){
+  
+  alert("By Clicking this you will logout From your Account!!");
+
+  localStorage.removeItem("LoginDetails");
+  window.location.href = "./../index.html";
+
+
+}

@@ -43,11 +43,14 @@ ul li a:hover::before {
     background-color: rgb(251, 255, 255);
     width: 550px;
     height: 550px;
-    border-radius: 80px;
+    border-radius: 20px;
     margin-left: 50px;
     margin-top: 85px;
+    /* overflow: scroll; */
 }
-
+/* .container::-webkit-scrollbar{
+    display: none;
+} */
 h1 {
     color: brown;
     font-size: 50px;
@@ -65,7 +68,7 @@ p {
 }
 .box{
     width: 320px;
-    height: 320px;
+    height: 370px;
     border-color: black;
     border-radius: 30px;
     border-style: solid;
@@ -237,6 +240,41 @@ p {
     text-decoration: none;
 }
 .sticker5{
+    width: 50px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 2px;
+}
+.container6{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container6:hover{
+    transform: scale(1.5);
+    background-color: red;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.25s;
+}
+
+.logout{
+    font-size: 25px;
+    font-family: inherit;
+    margin-left: 60px;
+    padding-top: 10px;
+   margin-top: -55px;
+}
+.logout:hover{
+    color: white;
+}
+.sticker6{
     width: 50px;
     height: 50px;
     margin-top: 0px;
