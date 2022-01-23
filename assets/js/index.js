@@ -19,12 +19,12 @@ function summerTrip(event){
     let trips2=localStorage.getItem("LoginDetails");
 
     if(trips2){
-        window.open("/pages/summertrip.html");
+        window.open("./pages/summertrip.html");
     }
 
     else{
         alert("Login to View the trips");
-        window.location.href = "/pages/userlogin.html"
+        window.location.href = "./pages/userlogin.html"
     }
 
 }
@@ -35,12 +35,12 @@ function pilgrimageTrip(event){
     let trips3=localStorage.getItem("LoginDetails");
 
     if(trips3){
-        window.open("/pages/Pilgrimagetrip.html");
+        window.open("./pages/Pilgrimagetrip.html");
     }
 
     else{
         alert("Login to View the trips");
-        window.location.href = "./../pages/userlogin.html"
+        window.location.href = "./pages/userlogin.html"
     }
 }  
 
@@ -65,19 +65,8 @@ function searchBar(event){
 
 let tripSearched=document.getElementById("searchBox").value;
 
-if("Holiday trips" == tripSearched){
-    window.open("/pages/holidaytrip.html")
-}
 
-else if ("Summer trips" == tripSearched){
-    window.open("/pages/summertrip.html")
-}
-
-else if("Pilgrimage trips" == tripSearched){
-    window.open("/pages/Pilgrimagetrip.html")
-}
-
-else if ("Newyork trip" == tripSearched){
+ if ("Newyork trip" == tripSearched){
     window.open("/pages/NewYork.html")
 }
 
