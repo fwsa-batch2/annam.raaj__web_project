@@ -4,6 +4,9 @@
     margin-left: 650px;
     border-radius: 30px;
 }
+.logo:hover{
+    transform: scale(1.0);
+}
 ul{
     list-style-type: none;
     margin-left: 1000px;
@@ -18,7 +21,6 @@ li{
 li a{
     text-decoration: none;
     border: 0 10px;
-    
     color: black;
     position: relative;
 }
@@ -36,6 +38,22 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
+img{
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin-left: 120px;
+}
+img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position:relative;
+    transition: 0.95s;
+    
+}
 .title{
     font-size: 50px;
     font-weight: 500;
@@ -47,82 +65,28 @@ h5{
     font-style: inherit;
     margin-left: 50px;
 }
-.buses{
-    width: 400px;
-    height: 300px;
-    margin-left: 250px;
-}
-.bus2{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
-.safe{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
-.luxuary{
-    width: 400px;
-    height: 300px;
-    margin-left: 250px;
-}
-.slepper{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
-.plane{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
-.train{
-    width: 400px;
-    height: 300px;
-    margin-left: 700px;
-}
-img{
-    border-radius: 30px;
-    cursor: pointer;
-}
-img:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-}
 h4{
     font-size: 30px;
     font-style: inherit;
     margin-left: 50px;
 }
-.touristsAV{
-    width: 400px;
-    height: 300px;
-    margin-left: 250px;
+.Transport_Gallery{
+    margin-left: 80px;
 }
-.touristsET{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
-.touristsSOL{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-}
+
 div{
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: inherit;
-    margin-left: 370px;
+}
+span{
+    margin-left: 250px;
 }
 .text2{
-    margin-left: 350px;
+    margin-left: 390px;
 }
 .text3{
-    margin-left: 310px;
+    margin-left: 400px;
 }
 footer{
     background-color: wheat;

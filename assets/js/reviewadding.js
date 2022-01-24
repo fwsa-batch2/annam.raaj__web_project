@@ -7,11 +7,11 @@ function pageOnLoad() {
   }
 }
 
-
+// It will create local storage and  store the Form fields in local storage
 function reviewList(event) {
   event.preventDefault();
   
-  let userName = document.getElementById("uName").value;
+  let userName = document.getElementById("userName").value;
   let customerReview = document.getElementById("review").value;
   if(userName.trim() == ""){
     alert("User Name Cannot Have only Spaces!")
@@ -33,7 +33,7 @@ function reviewList(event) {
   };
 
   reviews.push(reviewAddingdetails);
-  localStorage.setItem("Customer Reviews", JSON.stringify(reviews));
+  localStorage.setItem("Customer_Reviews", JSON.stringify(reviews));
 
   window.location.href="./../pages/Review.html";
 

@@ -1,17 +1,10 @@
-
 body{
     background: rgb(146, 173, 91);
 }
 body::-webkit-scrollbar{
     display: none;
 }
-.container1{
-  width: 1830px;
-  height: 200px;
-  border-radius: 30px;
-  background-color: white;
- 
-}
+
 .logo {
     width: 500px;
     height: 150px;
@@ -23,6 +16,16 @@ body::-webkit-scrollbar{
     font-family: inherit;
     text-align: center;
     margin-top: 100px;
+}
+a{
+    color: blue;
+}
+.Sub_Heading{
+    font-size: 35px;
+    font-weight: 900px;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
 }
 ul{
     list-style-type: none;
@@ -56,23 +59,6 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-.star{
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: -20px;
-}
-.profile{
-    width: 65px;
-    height: 65px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-.name{
-    font-size: 30px;
-    margin-top: -50px;
-    margin-left: 90px;
-
-}
 strong{
     font-size: 29px;
     margin-left: 1  0px;
@@ -82,29 +68,28 @@ p{
     font-size: 25px;
     margin-left: 10px;
 }
-.container2{
-  width: 1830px;
-  height: 200px;
-  border-radius: 30px;
-  background-color: white;
-  margin-top: 5px;
-  
+.container{
+    width: 1830px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 5px;
 }
-
-.container3{
-  width: 1830px;
-  height: 200px;
-  border-radius: 30px;
-  background-color: white;
-  margin-top: 5px;
-  
-  
+.profile{
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
-.container4{
-    overflow: scroll;
+.User_name{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 90px;
 }
-.container4::-webkit-scrollbar{
-    display: none;
+.Rating{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -20px;
 }
 #review{
     width: 1830px;
@@ -112,16 +97,11 @@ p{
     border-radius: 30px;
     background-color: white;
     margin-top: 5px;
+    overflow: scroll;
     
 }
-.text{
-    font-size: 35px;
-    font-weight: 900px;
-    margin-left: 30px;
-    margin-top: 20px;
-    text-align: center;
+#review::-webkit-scrollbar{
+    display: none;
 }
-a{
-    color: blue;
-}
+
 

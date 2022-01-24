@@ -1,4 +1,4 @@
-
+// This function is used to see whether user is logged in befre entering into other pages.
 function holidayTrip(event){
     event.preventDefault();
 
@@ -60,6 +60,8 @@ function myProfile(event){
 
 }
 
+
+// This function works on search functionality
 function searchBar(event){
     event.preventDefault();
 

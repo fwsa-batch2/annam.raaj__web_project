@@ -66,14 +66,14 @@ ul li a:hover::before {
 .pilgrimagetrip{
     margin-left: 100px;
 }
-.holtext{
+.holidayTripText{
     font-size: 30px;
     margin-left: 400px;
 }
-.sumtext{
+.summerTripText{
     font-size: 30px;
     margin-left: 250px;
-}.piltext{
+}.pilgrimageTripText{
     font-size: 30px;
     margin-left: 250px;
 }

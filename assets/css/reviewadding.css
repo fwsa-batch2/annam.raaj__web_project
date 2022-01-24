@@ -39,10 +39,17 @@ ul li a:hover::before {
     margin-left: 650px;
     border-radius: 30px;
 }
-.info{
+.Title{
     font-size: 45px;
     text-align: center;
     margin-top: 80px;
+}
+.container{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(246, 242, 242);
+    border-radius: 20px;
+    margin-left: 650px;
 }
 input{
     width: 400px;
@@ -100,11 +107,4 @@ textarea::-webkit-scrollbar{
 .reset:hover{
     background-color: white;
     color: black;
-}
-.container{
-width: 500px;
-height: 400px;
-background-color: rgb(246, 242, 242);
-border-radius: 20px;
-margin-left: 650px;
 }

@@ -1,73 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png" />
+    <link rel="stylesheet" href="./../assets/css/contactus.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT US</title>
+    <style>
+      body {
+        background-image: url("./../assets/image/contactusbg.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
 
-<head>
-  <link rel="shortcut icon" href="./../assets/image/icon1.png">
-  <link rel="stylesheet" href="./../assets/css/contactus.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CONTACT US </title>
-  <style>
-    body {
-      background-image: url("./../assets/image/contactusbg.jpeg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-    }
-  </style>
-</head>
+  <body>
+    <header>
+      <a href="./../index.html"
+        ><img src="../assets/image/logo.png" alt="logo" class="logo"
+      /></a>
+    </header>
 
-<body>
-  <header><a href="./../index.html"><img src="../assets/image/logo.png" alt="" class="logo"></a></header>
+    <ul>
+      <li><a href="./../index.html" class="decoration"> Home </a></li>
+      <li>
+        <a href="./../pages/Aboutus.html" class="decoration"> About Us </a>
+      </li>
+      <li>
+        <a href="./../pages/gallery.html" class="decoration"> Gallery </a>
+      </li>
+      <li>
+        <a href="./../pages/contact us.html" class="decoration"> Contact Us </a>
+      </li>
+      <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
+      <li>
+        <a href="./../pages/userlogin.html" class="decoration"> Login </a>
+      </li>
+    </ul>
 
-  <ul>
-    <li><a href="./../index.html" class="decoration"> Home </a></li>
-    <li><a href="./../pages/Aboutus.html" class="decoration"> About Us </a> </li>
-    <li> <a href="./../pages/gallery.html" class="decoration"> Gallery </a> </li>
-    <li> <a href="./../pages/contact us.html" class="decoration"> Contact Us </a></li>
-    <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
-    <li> <a href="./../pages/userlogin.html" class="decoration"> Login </a> </li>
-  </ul>
+    <div class="container">
+      <h3 class="title">Contact Us</h3>
+      <p class="line_1">
+        You come to us anytime for any queries and clarification
+      </p>
+      <p class="line_2">on your ticket through:-</p>
+      <p class="Website_link">worldtourapp.fwsa.in</p>
 
-  <div class="container">
-    <h3 class="title"> Contact Us </h3>
-    <p> You come to us anytime for any querries and clarification </p>
-    <p class="second"> on your ticket through:- </p>
-    <p class="link"> worldtour@tours.in</p>
+      <form onsubmit="submitHandler(event)">
+        <figure>
+          <figcaption><p class="Sub_Heading">Any Queries:-</p></figcaption>
+          <table>
+            <tr>
+              <th id="mail_Id">Email_Id:-</th>
+              <td>
+                <input
+                  type="email"
+                  name="Mail_id"
+                  id="email"
+                  placeholder="Enter your Email_Id"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <th id="queries">Your Questions:-</th>
+              <td>
+                <input
+                  type="text"
+                  name="querries"
+                  id="Query"
+                  class="textarea"
+                  placeholder="Type your Query"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="submit" value="Submit" class="submit" /></td>
+            </tr>
+          </table>
+        </figure>
+      </form>
 
-    
-    <form onsubmit="submitHandler(event)">
-      <figure>
-        <figcaption><p class="Suggestion"> Any Questions:- </p></figcaption>
-      <table> 
-
-        <tr>
-          <th id="mail Id">Email_Id:-</th>
-          <td><input type="email" name="" id="email" placeholder="Enter your Email_Id" required></td>
-        </tr>
-        <tr>
-          <th id="suggest">Your Questions:- </th>
-          <td><input type="text" name="" id="Suggestion" class="textarea" placeholder="Type your text" required></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td><input type="submit" value="Submit" class="submit"></td>
-        </tr>
-
-      </table>
-   
-    </figure>
-    </form>
-
-
-    <p class="follow">Follow us at:-</p>
-    <img src="./../assets/image/Twitter.png" alt="">
-    <img src="./../assets/image/facebook.png" alt="">
-    <img src="./../assets/image/linkedin.png" alt="">
-  </div>
- <footer>Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved</footer>
-   <script src="./../assets/js/contactus.js"></script>
-</body>
-
+      <div class="FollowUs_Container">
+        <p class="line_3">Follow us at:-</p>
+        <img src="./../assets/image/Twitter.png" alt="Twitter" />
+        <img src="./../assets/image/facebook.png" alt="facebook" />
+        <img src="./../assets/image/linkedin.png" alt="linkedin" />
+      </div>
+    </div>
+    <footer>
+      Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved
+    </footer>
+    <script src="./../assets/js/contactus.js"></script>
+  </body>
 </html>
