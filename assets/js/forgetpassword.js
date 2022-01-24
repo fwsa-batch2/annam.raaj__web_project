@@ -5,6 +5,10 @@ function forgetPassword(event){
     let email = document.getElementById("mail").value;
     let crtpassword = document.getElementById("createPassword").value;
     let contpassword = document.getElementById("cofrimPassword").value;
+    if(crtpassword.trim() == ""){
+        alert("Password Cannot Have only Spaces!");
+        return null;
+    }
     let bool = false;
     let index=0;
     let array = JSON.parse(localStorage.getItem("User Credentials"));

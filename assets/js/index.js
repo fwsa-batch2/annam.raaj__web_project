@@ -50,12 +50,12 @@ function myProfile(event){
     let profile=localStorage.getItem("LoginDetails");
 
     if(profile){
-        window.open("/pages/MyAccount.html");
+        window.open("./pages/MyAccount.html");
     }
 
     else{
         alert("Login To view Your Profile!");
-        window.location.href = "/pages/userlogin.html"
+        window.location.href = "./pages/userlogin.html"
     }
 
 }
@@ -67,51 +67,51 @@ let tripSearched=document.getElementById("searchBox").value;
 
 
  if ("Newyork trip" == tripSearched){
-    window.open("/pages/NewYork.html")
+    window.open("./pages/NewYork.html")
 }
 
 else if ("Paris trip" == tripSearched){
-    window.open("/pages/Paris.html")
+    window.open("./pages/Paris.html")
 }
 
 else if ("Singapore trip" == tripSearched){
-    window.open("/pages/Singapore.html")
+    window.open("./pages/Singapore.html")
 }
 
 else if ("Delhi trip" == tripSearched){
-    window.open("/pages/Delhi.html")
+    window.open("./pages/Delhi.html")
 }
 
 else if ("Agra trip" == tripSearched){
-    window.open("/pages/Agra.html")
+    window.open("./pages/Agra.html")
 }
 
 else if ("Ooty trip" == tripSearched){
-    window.open("/pages/Ooty.html")
+    window.open("./pages/Ooty.html")
 }
 
 else if ("Darjeeling trip" == tripSearched){
-    window.open("/pages/Darjeeling.html")
+    window.open("./pages/Darjeeling.html")
 }
 
 else if ("Araku trip" == tripSearched){
-    window.open("/pages/Arakuvalley.html")
+    window.open("./pages/Arakuvalley.html")
 }
 
 else if ("Varanasi trip" == tripSearched){
-    window.open("/pages/Varanasi.html")
+    window.open("./pages/Varanasi.html")
 }
 
 else if ("Tirumala trip" == tripSearched){
-    window.open("/pages/Tirumala.html")
+    window.open("./pages/Tirumala.html")
 }
 
 else if ("Hajj trip" == tripSearched){
-    window.open("/pages/Macca.html")
+    window.open("./pages/Macca.html")
 }
 
 else if ("Jerusaleum trip" == tripSearched){
-    window.open("/pages/jerusaleum.html")
+    window.open("./pages/jerusaleum.html")
 }
 else{
     alert("Page Not Found!")
