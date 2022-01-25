@@ -61,7 +61,7 @@ function submitHandler(event){
     }
     else {
         console.error("Passwords are different.")
-        document.getElementById("password_Error_Message").innerHTML = ("Passwords are different.");
+        
     }
    
     console.groupEnd("details") 
