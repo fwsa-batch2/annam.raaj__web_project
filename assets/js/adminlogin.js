@@ -1,15 +1,17 @@
+// check whether Admin ID and Cod is same or not 
+
 function submitHandler(event){
     event.preventDefault();
-    let userId="WT000ADMIN";
-    let code="FWSA";
+    let worldTourAdminId="WT000ADMIN";
+    let worldTourSecretCode="FWSA";
 
-   let id=document.getElementById("idNum").value;
-   let passcode=document.getElementById("code").value;
-   if(userId == id && code == passcode){
+   let worldTourID=document.getElementById("admimID").value;
+   let worldTourCode=document.getElementById("secretCode").value;
+   if(worldTourAdminId == worldTourID && worldTourSecretCode == worldTourCode){
        alert("Welcome Admin!!!"); 
        window.location.href="./../pages/New Trip details.html"  
    }
    else{
-       alert("Invalid Admin")
+       alert("Invalid Admin!!!")
    }
-}
+} 

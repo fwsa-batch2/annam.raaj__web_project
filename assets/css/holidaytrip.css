@@ -5,6 +5,11 @@
     margin-left: 650px;
     border-radius: 30px;
 }
+img{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
 ul{
     list-style-type: none;
     margin-left: 1000px;
@@ -37,47 +42,44 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-img{
-    border-radius: 30px;
-}
-.newyork{
+.newyork_Trip{
     margin-left: 380px;
     margin-top: 50px;
 }
-.paris{
+.paris_Trip{
     margin-left: 150px;
     margin-top: 50px;
 }
-.singapore{
+.singapore_Trip{
     margin-left: 150px;
     margin-top: 50px;
 }
-.delhi{
+.delhi_Trip{
     margin-left: 580px;
     margin-top: 50px;
 }
-.agra{
+.agra_Trip{
     margin-left: 150px;
     margin-top: 50px;
 }
-.nytext{
+.newyork_Trip_Text{
     margin-left: 430px;
     font-size: 25px;
 }
-.prtext{
+.prais_Trip_Text{
     margin-left: 260px;
     font-size: 25px;
 }
-.sintext{
+.singapore_Trip_Text{
     margin-left: 280px;
     font-size: 25px;
 }
-.deltext{
+.delhi_Trip_Text{
     margin-left: 650px;
     font-size: 25px;
 
 }
-.agtext{
+.agra_Trip_Text{
     margin-left: 300px;
     font-size: 25px;
 }

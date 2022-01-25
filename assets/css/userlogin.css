@@ -1,12 +1,9 @@
-.container {
-    background-color: rgb(251, 255, 255);
+.logo {
     width: 500px;
-    height: 470px;
-    border-radius: 80px;
+    height: 150px;
     margin-left: 650px;
-    margin-top: 65px;
+    border-radius: 30px;
 }
-
 ul{
     list-style-type: none;
     margin-left: 900px;
@@ -39,7 +36,14 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-
+.container {
+    background-color: rgb(251, 255, 255);
+    width: 500px;
+    height: 470px;
+    border-radius: 80px;
+    margin-left: 650px;
+    margin-top: 65px;
+}
 input {
     width: 240px;
     height: 50px;
@@ -51,26 +55,14 @@ input {
 input:hover{
     transform: scale(1.1);
 }
-#showPassword{
-    height: 20px;
-    margin-left: 85px;
-}
-.showpass{
-    margin-top: -25px;
-    margin-left: 220px;
-    font-size: 20px;
-}
-
 label {
     font-size: 25px;
     margin-left: 40px;
 }
-
 h3 {
     margin-left: 150px;
     margin-top: 5px;
 }
-
 button {
     height: 60px;
     width: 150px;
@@ -79,44 +71,37 @@ button {
     border-radius: 20px;
     font-size: 30px;
     margin-left: 175px;
-
 }
-
 button:hover {
     background-color: white;
     color: black;
 }
-
-.test {
+.createAccount_link{
     font-size: 25px;
     margin-left: 700px;
     margin-top: -60px;
     font-weight: bold;
 }
-
-.test a {
-
+.createAccount_link a {
     color: rgb(114, 13, 114);
 }
-
-.for a {
-    text-decoration: none;
-    color: darkblue;
-}
-#input1{
+#userName{
     margin-left: 10px;
 }
-#input2{
+#mailId{
     margin-left: 30px;
 }
-#input3{
+#password{
     margin-left: 23px;
 }
-.logo {
-    width: 500px;
-    height: 150px;
-    margin-left: 650px;
-    border-radius: 30px;
+#showPassword{
+    height: 20px;
+    margin-left: 85px;
+}
+.Show_Password_Text{
+    margin-top: -25px;
+    margin-left: 220px;
+    font-size: 20px;
 }
 footer{
     background-color: wheat;

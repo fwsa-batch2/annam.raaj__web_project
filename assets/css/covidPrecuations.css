@@ -39,7 +39,7 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-.container{
+.Main_Container{
     background-color: white;
     width: 700px;
     height: 500px;
@@ -54,54 +54,16 @@ ul li a:hover::before {
     color: red;
     
 }
-.point1{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: -60px;
-}
-.hand{
-    width: 75px;
-    height: 75px;
-    margin-left: 20px;
+.Precuations_Box{
     margin-top: -40px;
 }
-.point2{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: -60px;
-}
-.sanitizer{
+.Precuation_img{
     width: 75px;
     height: 75px;
     margin-left: 20px;
 }
-.point3{
+.Precuations{
     font-size: 30px;
     margin-left: 100px;
     margin-top: -60px;
-}
-.mask{
-    width: 75px;
-    height: 75px;
-    margin-left: 20px;
-}
-.point4{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: -60px;
-}
-.distance{
-    width: 75px;
-    height: 75px;
-    margin-left: 20px;
-}
-.point5{
-    font-size: 30px;
-    margin-left: 100px;
-    margin-top: -60px;
-}
-.vaccination{
-    width: 75px;
-    height: 75px;
-    margin-left: 20px;
 }

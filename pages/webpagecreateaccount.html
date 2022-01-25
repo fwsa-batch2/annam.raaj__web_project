@@ -1,133 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png" />
+    <link rel="stylesheet" href="../assets/css/createaccount.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>USER REGISTRATION</title>
+    <style>
+      body {
+        background-image: url("../assets/image/createAccountbg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
 
-<head>
-  <link rel="shortcut icon" href="./../assets/image/icon1.png">
-  <link rel="stylesheet" href="../assets/css/createaccount.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> USER REGISTRATION </title>
-  <style>
-    body {
-      background-image: url("../assets/image/backca.jpg");
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      background-attachment: fixed;
-    }
+  <body>
+    <header>
+      <a href="./../index.html"
+        ><img src="./../assets/image/logo.png" alt="logo" class="logo"
+      /></a>
+    </header>
 
-   
-  </style>
-</head>
+    <div class="container">
+      <form onsubmit="submitHandler(event)">
+        <table>
+          <caption></caption>
+          <tr>
+            <th id="nameOfTheUser">User Name:</th>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your  Name"
+                autofocus
+                title="Please Ener Valid User Name."
+                id="userName"
+                pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th id="addressOfTheUser">Address:</th>
+            <td>
+              <textarea
+                name="address"
+                cols="30"
+                rows="10"
+                placeholder="Enter your Address"
+              ></textarea>
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="MailIdOfTheUser">Email_Id:</th>
+            <td>
+              <input
+                type="email"
+                name="email_id"
+                placeholder="Enter your Email ID"
+                id="emailId"
+                required
+              />
+            </td>
+          </tr>
 
-<body>
- 
-    <header> <a href="./../index.html"><img src="./../assets/image/logo.png" alt="logo" class="logo"></a></header>
- 
+          <tr>
+            <th id="createPasswordTableHeader">Create Password:</th>
+            <td>
+              <input
+                type="password"
+                name="create password"
+                id="createPassword"
+                minlength="8"
+                title="Password should contain minimum 8 characters"
+                placeholder=" Create  Your Password"
+                required
+              />
+            </td>
+          </tr>
 
-  <div class="container">
-    <form onsubmit="myPassword(event)">
-      <table style="color:#000000" ;>
-        <caption></caption>
-        <tr>
-          <th id="nam">User Name:</th>
-          <td> <input type="text" name="name" placeholder="Enter your  Name" autofocus
-            title="Please Ener Valid User Name." id="name" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"  required></td>
-        </tr>
-        <tr>
-          <th id="adres">Address:</th>
-          <td> <textarea name="address" cols="30" rows="10" placeholder="Enter your Address"></textarea></td>
-        </tr>
-        ​
-        <tr>
-          <th id="Mail">Email_Id:</th>
-          <td> <input type="email" name="email_id" placeholder="Enter your Email ID" id="email" required> </td>
-        </tr>
-        ​<tr>
-          <td>
-            <div class="msgMail">
+          <tr>
+            <th id="confirmPasswordTableHeader">Confirm Password:</th>
+            <td>
+              <input
+                type="password"
+                name="confirm password"
+                id="confirmPassword"
+                minlength="8"
+                title="Password should contain minimum 8 characters"
+                placeholder=" confirm Your Password"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="password_Error_Message"></div>
+            </td>
+          </tr>
 
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <th id="cpas">Create Password:</th>
-          <td> <input type="password" name="create password" id="createPassword"  minlength="8"
-              title="Password should contain minimum 8 characters" placeholder=" Create  Your Password" required> </td>
-        </tr>
+          ​
+          <tr>
+            <td></td>
+            <td>
+              <input
+                type="checkbox"
+                name="checkpassword"
+                onclick="showPasswordWhenChecked()"
+                id="showPassword"
+              />
+              <p class="Show_Password_Text">Show Paasword</p>
+            </td>
+          </tr>
+          
+          <tr>
+            <th id="DateOfBirthOfTheUser">Date Of Birth:</th>
+            <td>
+              <input
+                type="date"
+                name="DOB"
+                placeholder="As of 2021"
+                id="DateOfBirth"
+                min="1921-12-31"
+                max="2002-12-31"
+                required
+              />
+            </td>
+          </tr>
+          ​ ​
+          <tr>
+            <th id="mobileNumberOfTheUser">Mobile Number:</th>
+            <td>
+              <input
+                type="tel"
+                name="mobile number"
+                pattern="[0-9]{10}"
+                title="mobile number must have 10 numbers"
+                placeholder="Enter your Mobile Number"
+                maxlength="10"
+                id="mobileNumber"
+                required
+              />
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="genderOfTheUser">Gender</th>
+            <td>
+              <select name="no. of people">
+                <option value="select">--SELECT--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="transgender">Transgender</option>
+              </select>
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="nationalityOfTheUser">Nationality</th>
+            <td>
+              <select name="no. of people">
+                <option value="select">--SELECT--</option>
+                <option value="indian">Indian</option>
+                <option value="american">American</option>
+                <option value="australian">Australian</option>
+                <option value="chinese">Chinese</option>
+                <option value="european">European</option>
+                <option value="french">French</option>
+                <option value="italian">Italian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="juwaiti">Kuwaiti</option>
+                <option value="russian">Russian</option>
+              </select>
+            </td>
+          </tr>
+          ​
+          <tr>
+            <td></td>
 
-        <tr>
-          <th id="copas">Confirm Password:</th>
-          <td> <input type="password" name="confirm password" id="confirmPassword" minlength="8"
-              title="Password should contain minimum 8 characters" placeholder=" confirm Your Password" required> </td>
-        </tr>
-        <tr>
-          <td>
-            <div id="pass">
-
-            </div>
-          </td>
-
-
-        </tr>
-
-        ​ <tr>
-          <td></td>
-          <td> <input type="checkbox" name="checkpassword" onclick="show()" id="showPassword"><p class="showpasswordText">Show Paasword</p> </td>
-        </tr>
-        <tr>
-          <th id="birth">Date Of Birth:</th>
-          <td> <input type="date" name="DOB" placeholder="As of 2021" id="dob" min="1921-12-31" max="2002-12-31"
-              required> </td>
-        </tr>
-        ​
-        ​
-        <tr>
-          <th id="phNo">Mobile Number: </th>
-          <td> <input type="tel" name="mobile number" pattern="[0-9]{10}" title="mobile number must have 10 numbers"
-              placeholder="Enter your Mobile Number" maxlength="10" id="mobile" required></td>
-        </tr>
-        ​
-        <tr>
-          <th id="gen">Gender</th>
-          <td> <select name="no. of people">
-              <option value="select">--SELECT--</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-              <option value="transgender">Transgender</option>
-            </select></td>
-        </tr>
-        ​
-        <tr>
-          <th id="nation">Nationality</th>
-          <td> <select name="no. of people">
-              <option value="select">--SELECT--</option>
-              <option value="indian">Indian</option>
-              <option value="american">American</option>
-              <option value="australian">Australian</option>
-              <option value="chinese">Chinese</option>
-              <option value="european">European</option>
-              <option value="french">French</option>
-              <option value="italian">Italian</option>
-              <option value="Japanese">Japanese</option>
-              <option value="juwaiti">Kuwaiti</option>
-              <option value="russian">Russian</option>
-            </select></td>
-        </tr>
-        ​
-        <tr>
-          <td></td>
-
-          <td> <input type="reset" name="reset" value="Reset" class="erase"> </td>
-          <td> <button>Sign Up </button> </td>
-        </tr>
-
-      </table> <br><br><br>
-
-    </form>
-  </div>
-  <footer>Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved</footer>
-  <script src="../assets/js/createaccount.js"></script>
-</body>
-
+            <td>
+              <input type="reset" name="reset" value="Reset" class="Reset" />
+            </td>
+            <td><button>Sign Up</button></td>
+          </tr>
+        </table>
+        <br /><br /><br />
+      </form>
+    </div>
+    <footer>
+      Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved
+    </footer>
+    <script src="../assets/js/createaccount.js"></script>
+  </body>
 </html>

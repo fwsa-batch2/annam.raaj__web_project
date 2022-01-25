@@ -1,6 +1,12 @@
 body{
     background-color: rgb(36, 34, 34);
 }
+.logo {
+    width: 500px;
+    height: 150px;
+    margin-left: 650px;
+    border-radius: 30px;
+}
 ul{
     list-style-type: none;
     margin-left: 900px;
@@ -12,7 +18,7 @@ li{
     float: left;
     margin-left: 40px;
     color: white;
-}
+} 
 li a{
     text-decoration: none;
     border: 0 10px;
@@ -34,18 +40,19 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-.logo {
-    width: 500px;
-    height: 150px;
-    margin-left: 650px;
-    border-radius: 30px;
+.Title{
+    color: white;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 180px;
 }
-.container{
+.Main_Container{
     background-color: whitesmoke;
     width: 370px;
     height: 200px;
     border-radius: 30px;
-    margin-left: 610px;
+    margin-left: 710px;
     margin-top: -25px;
     padding-left: 40px;
     padding-top: 20px;
@@ -79,11 +86,4 @@ input{
 .submit:hover{
     background-color: white;
     counter-reset: black;
-}
-p{
-    color: white;
-    font-size: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 680px;
-    margin-top: 200px;
 }

@@ -1,5 +1,7 @@
 
 let list = [];
+
+
 function recoverDetails() {
     let details = localStorage.getItem("User Credentials");
     let detailsToArray = JSON.parse(details);
@@ -9,24 +11,27 @@ function recoverDetails() {
 }
 recoverDetails();
 
-function myPassword(event){
+// Will store in local storage 
+function submitHandler(event){
     
     event.preventDefault();
     console.group("details")
 
-    let uName = document.getElementById("name").value;
-    let email = document.getElementById("email").value;
-    let createpass = document.getElementById("createPassword").value;
+    let userName = document.getElementById("userName").value;
+    let email = document.getElementById("emailId").value;
+    let createPassword = document.getElementById("createPassword").value;
+    let mobileNumber = document.getElementById("mobileNumber").value;
 
-    // if(createpass.trim() == ""){
-    //     alert("Password Cannot Have only Spaces!");
-    //     return null;
-    // }
+    if(createPassword.trim() == ""){
+        alert("Password Cannot Have only Spaces!");
+        return null;
+    }
     
     let userDetails = {
-        "userName": uName,
+        "userName": userName,
         "email_id": email,
-        "createpassWrd": createpass,
+        "createPassWord": createPassword,
+        "Mobile_Number": mobileNumber,
        
         
     }
@@ -56,7 +61,7 @@ function myPassword(event){
     }
     else {
         console.error("Passwords are different.")
-        document.getElementById("pass").innerHTML = ("Passwords are different.");
+        document.getElementById("password_Error_Message").innerHTML = ("Passwords are different.");
     }
    
     console.groupEnd("details") 
@@ -64,29 +69,15 @@ function myPassword(event){
      
 }
 
-   
 
-//[{},{}]
-//let isEmailAleadyExists=false;
-//for(i=0;i<array.length;i++){
-   // if(email==array[i].email_id){
-  //isEmailAlre=true;
- // break
- //if(isEmailAr==true)
- // new Date()
- //error
-  // get id
-  // assign a vairble
-  // if var.length != 10 {error}
-  // .min=new Date()
-
+// Will check whether passwords are same
 
 function passwordValidation() {
     
-    let createpass = document.getElementById("createPassword").value; 
-    let confrimpass = document.getElementById("confirmPassword").value;
+    let createPasswordCheck = document.getElementById("createPassword").value; 
+    let confirmPasswordCheck = document.getElementById("confirmPassword").value;
 
-    if (createpass == confrimpass) {
+    if (createPasswordCheck == confirmPasswordCheck) {
         console.log(" Your Password matched")
 
 
@@ -100,9 +91,10 @@ function passwordValidation() {
     }
 }
 
+// will show the password when box is checked
 
-function show() {
-    let showPassword = document.getElementById("confirmPassword");
+function showPasswordWhenChecked() {
+    let showConfirmPassword = document.getElementById("confirmPassword");
     let showCreatePassword = document.getElementById("createPassword");
 
     if(showCreatePassword.type === "password"){
@@ -112,13 +104,10 @@ function show() {
         showCreatePassword.type = "password"
     }
    
-    if (showPassword.type === "password") {
-        showPassword.type = "text";
+    if (showConfirmPassword.type === "password") {
+        showConfirmPassword.type = "text";
     }
     else {
-        showPassword.type = "password";
+        showConfirmPassword.type = "password";
     }
 }
-
-
-

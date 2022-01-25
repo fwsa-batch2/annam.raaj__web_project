@@ -1,9 +1,12 @@
 let storage = []
-function loginStorage(event) {
 
+// will check whether Email ID and Psswords are same and store the logged In user details in local storage
+
+function loginStorage(event) {
     event.preventDefault();
-    let email = document.getElementById("input2").value;
-    let password = document.getElementById("input3").value;
+
+    let email = document.getElementById("mailId").value;
+    let password = document.getElementById("password").value;
     let bool = false;
 
     let array = JSON.parse(localStorage.getItem("User Credentials"));
@@ -11,13 +14,9 @@ function loginStorage(event) {
 let object={}
 
     for (let i of array) {
-        console.log(i);
-        console.log(email);
-        console.log(i.email_id);
-        console.log(password);
-        console.log(i.createpassWrd);
+        
 
-        if (i.email_id == email && i.createpassWrd == password) {
+        if (i.email_id == email && i.createPassWord == password) {
             bool = true;
             object=i
             break;
@@ -40,9 +39,10 @@ let object={}
 
 }
 
+// will show the password wen box is checked
 
-function show() {
-    let showPassword = document.getElementById("input3");
+function showPasswordWhenChecked() {
+    let showPassword = document.getElementById("password");
    
     if (showPassword.type === "password") {
         showPassword.type = "text";

@@ -38,27 +38,12 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-
-.container {
-    background-color: rgb(251, 255, 255);
-    width: 550px;
-    height: 550px;
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-top: 85px;
-    /* overflow: scroll; */
-}
-/* .container::-webkit-scrollbar{
-    display: none;
-} */
 h1 {
     color: brown;
     font-size: 50px;
     margin-left: 100px;
     margin-top: 10px;
-
 }
-
 p {
     color: black;
     font-size: 30px;
@@ -66,14 +51,13 @@ p {
     margin-top: 10px;
     font-weight: bold;
 }
-.box{
-    width: 320px;
-    height: 370px;
-    border-color: black;
-    border-radius: 30px;
-    border-style: solid;
-    margin-left: 800px;
-    margin-top: -470px;
+.My_Profile_Container{
+    background-color: rgb(251, 255, 255);
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 85px;   
 }
 .profile{
     width: 200px;
@@ -81,25 +65,37 @@ p {
     margin-left: 120px;
     margin-top: -30px;
 }
-/* 1st */
-.container1{
+.Menu_box{
+    width: 320px;
+    height: 340px;
+    border-color: black;
+    border-radius: 30px;
+    border-style: solid;
+    margin-left: 800px;
+    margin-top: -470px;
+}
+.Menu_Item_Container{
     width: 300px;
     height: 50px;
     background-color: white;
     border-radius: 30px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     cursor: pointer;
-    
 }
-
-.container1:hover{
+.Menu_Item_Container:hover{
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position:relative;
     transition: 0.25s;
 }
-.recent{
+a{
+    color: black;
+    text-decoration: none;
+}
+/* 1st */
+
+.Menu_Item_Text1{
     color: black;
     font-size: 25px;
     font-family: inherit;
@@ -107,179 +103,89 @@ p {
     margin-top: -40px;
     
 }
-.recent a{
-    color: black;
-    text-decoration: none;
-}
-.sticker1{
+.Menu_Item_img1{
     width: 50px;
     height: 50px;
 }
 /* 2nd */
-.container2{
-    width: 300px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.container2:hover{
-    transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-}
-.time{
+
+.Menu_Item_Text2{
     font-size: 25px;
     font-family: inherit;
     margin-left: 60px;
     margin-top: -55px;
 }
-.time a{
-    color: black;
-    text-decoration: none; 
-}
-.sticker2{
+.Menu_Item_img2{
     width: 70px;
     height: 70px;
     margin-top: -10px;
     margin-left: -10px;
 }
 /* 3rd */
-.container3{
-    width: 300px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-    
-}
 
-.container3:hover{
-    transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-}
-.discount{
+.Menu_Item_Text3{
     font-size: 25px;
     font-family: inherit;
     margin-left: 60px;
     margin-top: -55px;
 }
-.discount a{
-    color: black;
-    text-decoration: none;
-}
-.sticker3{
+.Menu_Item_img3{
     width: 70px;
     height: 70px;
     margin-top: -10px;
     margin-left: -10px;
 }
 /* 4th */
-.container4{
-    width: 300px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.container4:hover{
-    transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-}
-.covid{
+
+.Menu_Item_Text4{
     font-size: 25px;
     font-family: inherit;
     margin-left: 60px;
     margin-top: -45px;
 }
-.covid a{
-    color: black;
-    text-decoration: none;
-}
-.sticker4{
+.Menu_Item_img4{
     width: 50px;
     height: 50px;
     margin-top: 0px;
     margin-left: 2px;
 }
 /* 5th */
-.container5{
-    width: 300px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
-.container5:hover{
-    transform: scale(1.5);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position:relative;
-    transition: 0.25s;
-}
-.gps{
+
+.Menu_Item_Text5{
     font-size: 25px;
     font-family: inherit;
     margin-left: 60px;
     margin-top: -45px;
 }
-.gps a{
-    color: black;
-    text-decoration: none;
-}
-.sticker5{
+.Menu_Item_img5{
     width: 50px;
     height: 50px;
     margin-top: 0px;
     margin-left: 2px;
 }
-.container6{
-    width: 300px;
-    height: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    cursor: pointer;
-}
+/* 6th */
 
 .container6:hover{
     transform: scale(1.5);
     background-color: red;
-   
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     position:relative;
     transition: 0.25s;
 }
-
-.logout{
+.Menu_Item_Text6{
     font-size: 25px;
     font-family: inherit;
     margin-left: 60px;
     padding-top: 10px;
    margin-top: -55px;
 }
-.logout:hover{
-    color: white;
-}
-.sticker6{
+.Menu_Item_img6{
     width: 50px;
     height: 50px;
     margin-top: 0px;
     margin-left: 2px;
 }
+
 footer{
     background-color: wheat;
     color: black;

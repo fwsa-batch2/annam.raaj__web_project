@@ -1,13 +1,13 @@
 let reviews = [];
 
 function pageOnLoad() {
-  const reviewListing = JSON.parse(localStorage.getItem("Customer Reviews"));
+  const reviewListing = JSON.parse(localStorage.getItem("Customer_Reviews"));
   if (reviewListing != null) {
     reviews = reviewListing;
   }
 }
 
-// It will create local storage and  store the Form fields in local storage
+// It will  store the Form fields in local storage and also see whether review containonly empty spaces
 function reviewList(event) {
   event.preventDefault();
   

@@ -1,104 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="./../assets/css/myaccount.css">
-    <link rel="shortcut icon" href="./../assets/image/icon1.png">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY ACCOUNT </title>
+  <head>
+    <link rel="stylesheet" href="./../assets/css/myaccount.css" />
+    <link rel="shortcut icon" href="./../assets/image/icon1.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY ACCOUNT</title>
     <style>
-        body {
-            background-image: url("../assets/image/my1.jpg");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-attachment: fixed;
-        }
+      body {
+        background-image: url("../assets/image/My_Accountbg.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
     </style>
-</head>
- 
-<body>
+  </head>
 
-    <header> <a href="./../index.html"><img src="./../assets/image/logo.png" alt="" class="logo"></a></header>
+  <body>
+    <header>
+      <a href="./../index.html"
+        ><img src="./../assets/image/logo.png" alt="logo" class="logo"
+      /></a>
+    </header>
 
     <ul>
-        <li><a href="./../index.html" class="decoration"> Home </a></li>
-        <li><a href="./../pages/Aboutus.html" class="decoration"> About Us </a> </li>
-        <li> <a href="./../pages/gallery.html" class="decoration"> Gallery </a> </li>
-        <li> <a href="./../pages/contact us.html" class="decoration"> Contact Us </a></li>
-        <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
-        <li> <a href="./../pages/userlogin.html" class="decoration"> Login </a> </li>
+      <li><a href="./../index.html" class="decoration"> Home </a></li>
+      <li>
+        <a href="./../pages/Aboutus.html" class="decoration"> About Us </a>
+      </li>
+      <li>
+        <a href="./../pages/gallery.html" class="decoration"> Gallery </a>
+      </li>
+      <li>
+        <a href="./../pages/contact us.html" class="decoration"> Contact Us </a>
+      </li>
+      <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
+      <li>
+        <a href="./../pages/userlogin.html" class="decoration"> Login </a>
+      </li>
     </ul>
-    <div class="container" id="userdetails">
-        <h1>Your Profile: </h1><br>
-        <img src="./../assets/image/boy.png" alt="boy" class="profile">
-        <p>Name:Annam Pavan Raaj</p>
-        <p>Email:Pavan@gmail.com</p>
-        <p>Moblie no.:9493170308</p>
-       
+    <div class="My_Profile_Container" id="userdetails">
+      <h1>Your Profile:</h1>
+      <br />
+      <img src="./../assets/image/User_Profile.png" alt="User_Profile" class="profile" />
+      <p>Name:Annam Pavan Raaj</p>
+      <p>Email:Pavan@gmail.com</p>
+      <p>Moblie no.:9493170308</p>
     </div>
 
-
-    <div class="box">
-
-
-        
-            <div class="container1">
-                <img src="./../assets/image/previous.png" alt="trip" class="sticker1">
-                <p class="recent">
-                    <a href="./../index.html">    My Trips</a> </p>
-            </div>
-        
-
-
-        
-            <div class="container2">
-                <img src="./../assets/image/clock.png" alt="time" class="sticker2">
-                <p class="time">
-                    <a href="https://www.google.com/search?q=average+time+spent&oq=average+time+spent&aqs=chrome.0.69i59j0i512l9.9664j0j15&sourceid=chrome&ie=UTF-8">
-            Average time </a></p>
-            </div>
-        
-
-
-        
-            <div class="container3">
-                <img src="./../assets/image/discounts.png" alt="discounts" class="sticker3">
-                <p class="discount">
-                    <a href="https://www.google.com/search?q=discounts&oq=discounts&aqs=chrome..69i57j69i59j0i512l7j0i131i433i512.2266j0j15&sourceid=chrome&ie=UTF-8">
-            Discounts </a> </p>
-            </div>
-        
-
-
-        
-            <div class="container4">
-                <img src="./../assets/image/covid.png" alt="corona" class="sticker4">
-                <p class="covid"> <a href="./../pages/covidPrecuations.html">Covid Precuations</a></p>
-            </div>
-        
-
-
-        <a href="https://www.google.com/maps/@12.9011614,77.6131667,14.86z"></a>
-        <div class="container5">
-            <img src="./../assets/image/gps.png" alt="live" class="sticker5">
-            <p class="gps"> Track My Trip</p>
+    <div class="Menu_box">
+      <a href="./../index.html">
+        <div class="Menu_Item_Container">
+          <img
+            src="./../assets/image/my_trip.png"
+            alt="my_trip"
+            class="Menu_Item_img1"
+          />
+          <p class="Menu_Item_Text1">My Trips</p>
         </div>
-        </a>
+      </a>
 
-        <div class="container6" onclick="logOut()">
-            <img src="./../assets/image/logout.png" alt="logout" class="sticker6">
-            <p class="logout" > Log Out </p>
+      <a
+        href="https://www.google.com/search?q=average+time+spent&oq=average+time+spent&aqs=chrome.0.69i59j0i512l9.9664j0j15&sourceid=chrome&ie=UTF-8"
+      >
+        <div class="Menu_Item_Container">
+          <img
+            src="./../assets/image/average_time.png"
+            alt="average_time"
+            class="Menu_Item_img2"
+          />
+          <p class="Menu_Item_Text2">Average time</p>
         </div>
+      </a>
 
+      <a
+        href="https://www.google.com/search?q=discounts&oq=discounts&aqs=chrome..69i57j69i59j0i512l7j0i131i433i512.2266j0j15&sourceid=chrome&ie=UTF-8"
+      >
+        <div class="Menu_Item_Container">
+          <img
+            src="./../assets/image/discounts.png"
+            alt="discounts"
+            class="Menu_Item_img3"
+          />
+          <p class="Menu_Item_Text3">Discounts</p>
+        </div>
+      </a>
+
+      <a href="./../pages/covidPrecuations.html">
+        <div class="Menu_Item_Container">
+          <img
+            src="./../assets/image/Covid_Precuations.png"
+            alt="Covid_Precuations"
+            class="Menu_Item_img4"
+          />
+          <p class="Menu_Item_Text4">Covid Precuations</p>
+        </div>
+      </a>
+
+      <a href="https://www.google.com/maps/@12.9011614,77.6131667,14.86z">
+        <div class="Menu_Item_Container">
+          <img
+            src="./../assets/image/Track_My_Trip.png"
+            alt="Track_My_Trip"
+            class="Menu_Item_img5"
+          />
+          <p class="Menu_Item_Text5">Track My Trip</p>
+        </div>
+      </a>
+
+      <div class="Menu_Item_Container" onclick="logOut()">
+        <img
+          src="./../assets/image/logout.png"
+          alt="logout"
+          class="Menu_Item_img6"
+        />
+        <p class="Menu_Item_Text6">Log Out</p>
+      </div>
     </div>
 
-
-
-
-    <footer>Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved</footer>
+    <footer>
+      Designed by Pavan Raaj Copyright © WorldTour Inc. All Rights Reserved
+    </footer>
     <script src="./../assets/js/myaccount.js"></script>
-</body>
-
+  </body>
 </html>
