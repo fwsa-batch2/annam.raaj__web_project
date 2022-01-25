@@ -13,10 +13,7 @@ function reviewList(event) {
   
   let userName = document.getElementById("userName").value;
   let customerReview = document.getElementById("review").value;
-  if(userName.trim() == ""){
-    alert("User Name Cannot Have only Spaces!")
-    return null;
-  }
+
   if(customerReview.trim() == "" ){
     alert("Review Cannot Have Only Spaces!")
     return null;

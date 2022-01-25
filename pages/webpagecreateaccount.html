@@ -32,7 +32,7 @@
         <tr>
           <th id="nam">User Name:</th>
           <td> <input type="text" name="name" placeholder="Enter your  Name" autofocus
-              title="Please enter more than 3 characters." id="name" pattern="[A-Za-z ]{3,20}" required></td>
+            title="Please Ener Valid User Name." id="name" pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"  required></td>
         </tr>
         <tr>
           <th id="adres">Address:</th>
@@ -52,7 +52,7 @@
         </tr>
         <tr>
           <th id="cpas">Create Password:</th>
-          <td> <input type="password" name="create password" id="createPassword" minlength="8"
+          <td> <input type="password" name="create password" id="createPassword"  minlength="8"
               title="Password should contain minimum 8 characters" placeholder=" Create  Your Password" required> </td>
         </tr>
 

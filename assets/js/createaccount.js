@@ -17,15 +17,11 @@ function myPassword(event){
     let uName = document.getElementById("name").value;
     let email = document.getElementById("email").value;
     let createpass = document.getElementById("createPassword").value;
-    if(uName.trim() == ""){
-        alert("User Name Cannot Have only Spaces!");
-        return null;
-    }
 
-    if(createpass.trim() == ""){
-        alert("Password Cannot Have only Spaces!");
-        return null;
-    }
+    // if(createpass.trim() == ""){
+    //     alert("Password Cannot Have only Spaces!");
+    //     return null;
+    // }
     
     let userDetails = {
         "userName": uName,

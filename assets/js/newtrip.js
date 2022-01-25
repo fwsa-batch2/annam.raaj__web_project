@@ -15,20 +15,20 @@ function newTripList(event) {
   let startingPrice = document.getElementById("price").value;
   let guideName = document.getElementById("guideName").value;
   let pickUpPoint = document.getElementById("pickUp").value;
-if(tripName.trim() == ""){
-  alert("Place Name Cannot Have only Spaces!");
-  return null;
-}
+// if(tripName.trim() == ""){
+//   alert("Place Name Cannot Have only Spaces!");
+//   return null;
+// }
 
-if(guideName.trim() == ""){
-  alert("Guide Name Cannot Have only Spaces!");
-  return null;
-}
+// if(guideName.trim() == ""){
+//   alert("Guide Name Cannot Have only Spaces!");
+//   return null;
+// }
 
-if(pickUpPoint.trim() == ""){
-  alert("Pick Up Point Cannot Have only Spaces!");
-  return null;
-}
+// if(pickUpPoint.trim() == ""){
+//   alert("Pick Up Point Cannot Have only Spaces!");
+//   return null;
+// }
 
      
 
