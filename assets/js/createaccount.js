@@ -85,7 +85,7 @@ function passwordValidation() {
     }
     else {
 
-        document.getElementById("pass").innerHTML = ("Passwords are different.");
+        document.getElementById("password_Error_Message").innerHTML = ("Passwords are different.");
 
         return false;
     }
