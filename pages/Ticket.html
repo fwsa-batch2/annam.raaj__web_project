@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="./../assets/image/icon1.png" />
+    <link rel="stylesheet" href="./../assets/css/ticket.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TICKET</title>
+    <style>
+      body {
+        background-image: url("./../assets/image/Ticketbg.gif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="./../index.html"
+        ><img src="./../assets/image/logo.png" alt="logo" class="logo"
+      /></a>
+    </header>
+
+    <ul>
+      <li><a href="./../index.html" class="decoration"> Home </a></li>
+      <li>
+        <a href="./../pages/Aboutus.html" class="decoration"> About Us </a>
+      </li>
+      <li>
+        <a href="./../pages/gallery.html" class="decoration"> Gallery </a>
+      </li>
+      <li>
+        <a href="./../pages/contact us.html" class="decoration"> Contact Us </a>
+      </li>
+      <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
+      <li>
+        <a href="./../pages/userlogin.html" class="decoration"> Login </a>
+      </li>
+    </ul>
+
+    <div class="Main_Container">
+      <form action="./../pages/Confirmation.html">
+        <table>
+          <caption>
+            Book Your Ticket
+          </caption>
+          <tr>
+            <th id="nameOfTheUser">User Name:</th>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your  Name"
+                title="Please Ener Valid User Name."
+                autofocus
+                id="name"
+                minlength="3"
+                pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th id="addressOfTheUser">Address:</th>
+            <td>
+              <textarea
+                name="address"
+                cols="30"
+                rows="10"
+                placeholder="Enter your Address"
+              ></textarea>
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="mailIDOfTheUser">Email_Id:</th>
+            <td>
+              <input
+                type="email"
+                name="email_id"
+                placeholder="Enter your Email_ID"
+                required
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <th id="passportNumberOfTheUser">Passport no.:</th>
+            <td>
+              <input
+                type="text"
+                name="passport no."
+                placeholder="Enter Your Passport Number"
+              />
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="departureFrom">From:</th>
+            <td>
+              <input
+                type="text"
+                name="From"
+                placeholder="Departure From"
+                required
+              />
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="mobileNumberOfTheUser">Mobile Number:</th>
+            <td>
+              <input
+                type="tel"
+                name="mobile number"
+                placeholder="Enter your Mobile Number"
+                pattern="[0-9]{10}"
+                title="mobile number must have 10 numbers & Alphabets are not accpected."
+                required
+              />
+            </td>
+          </tr>
+          ​ ​
+          <tr>
+            <th id="DateOfJourney">Date Of Journey:</th>
+            <td>
+              <input
+                type="date"
+                name="date of journey"
+                placeholder="dd/mm/yyyy"
+                min="2022-02-01"
+                max="2022-12-31"
+                required
+              />
+            </td>
+          </tr>
+          ​
+          <tr>
+            <th id="numberOfPeople">No. of People:</th>
+            <td>
+              <select name="no. of people">
+                <option value="select">--SELECT--</option>
+                <option value="One">One</option>
+                <option value="Two">Two</option>
+                <option value="More">More</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <th id="vaccineCertificateOfTheUser">vaccine certificate:</th>
+            <td>
+              <input
+                type="file"
+                name="file"
+                value="Vaccine Certificate"
+                class="Vaccine_Upload"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td>
+              <input type="reset" name="Reset" value="Reset" class="reset" />
+            </td>
+
+            <td>
+              <button class="Submit">Confirm</button>
+            </td>
+          </tr>
+
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,20 +1,21 @@
 let newTripDetails = [];
 
 function pageOnLoad() {
-  const tripListing = JSON.parse(localStorage.getItem("details"));
+  const tripListing = JSON.parse(localStorage.getItem("Trip_Details"));
   if (tripListing != null) {
     newTripDetails = tripListing;
   }
 }
 
+// it will store the form fields in local sorage and also check whether trip alredy exists 
 
-function newTripList(event) {
+function newTrip(event) {
   event.preventDefault(); 
   
-  let tripName = document.getElementById("newPlace").value;
-  let startingPrice = document.getElementById("price").value;
+  let tripName = document.getElementById("tripName").value;
+  let startingPrice = document.getElementById("tripPrice").value;
   let guideName = document.getElementById("guideName").value;
-  let pickUpPoint = document.getElementById("pickUp").value;
+  let pickUpPoint = document.getElementById("pickUpPoint").value;
 
   
   const tripAddingdetails = {
@@ -25,7 +26,7 @@ function newTripList(event) {
     
   };
   let isPlaceALreadyExists=false;
-  let array = JSON.parse(localStorage.getItem("details"));
+  let array = JSON.parse(localStorage.getItem("Trip_Details"));
   for(let i=0; i<newTripDetails.length; i++){
     if(array[i].placeName === tripName){
       isPlaceALreadyExists=true;
@@ -40,7 +41,7 @@ function newTripList(event) {
   }
 
   newTripDetails.push(tripAddingdetails);
-  localStorage.setItem("details", JSON.stringify(newTripDetails));
+  localStorage.setItem("Trip_Details", JSON.stringify(newTripDetails));
 
   window.location.href="./../pages/new trip list.html";
 

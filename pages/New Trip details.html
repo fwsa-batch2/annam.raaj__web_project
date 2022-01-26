@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="shortcut icon" href="./../assets/image/icon1.png">
     <link rel="stylesheet" href="./../assets/css/new trip details.css">
@@ -9,54 +10,95 @@
     <title> NEW TRIP DETAILS</title>
     <style>
         body {
-            background-image: url("./../assets/image/newtripdetails.jpeg");
+            background-image: url("./../assets/image/newtrip_detailsBg.jpeg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-attachment: fixed;
         }
-    </style> 
+    </style>
 </head>
+
 <body>
-    <header><a href="./../index.html"><img src="./../assets/image/logo.png" alt="" class="logo"></a> <p class="admin"> <img src="./../assets/image/admin.png" alt="admin" class="profile"> Welcome Admin</p> </header>
+    <header><a href="./../index.html"><img src="./../assets/image/logo.png" alt="logo" class="logo"></a>
+        <p class="Welcome_Text"> <img src="./../assets/image/admin.png" alt="admin" class="Admin_Profile"> Welcome Admin
+        </p>
+    </header>
 
     <ul>
         <li><a href="./../index.html" class="decoration"> Home </a></li>
         <li><a href="./../pages/Aboutus.html" class="decoration"> About Us </a> </li>
         <li> <a href="./../pages/gallery.html" class="decoration"> Gallery </a> </li>
         <li> <a href="./../pages/contact us.html" class="decoration"> Contact Us </a></li>
-        <li><a href="./../pages/Review.html" class="decoration" >Reviews</a></li>
+        <li><a href="./../pages/Review.html" class="decoration">Reviews</a></li>
         <li> <a href="./../pages/userlogin.html" class="decoration"> Login </a> </li>
     </ul>
-    
-   <p class="info"> New Trips Adding Page:-</p> 
+
+    <p class="Title"> New Trips Adding Page:-</p>
 
 
-   <div class="container">
-
-   
-   <form onsubmit="newTripList(event)">
-       <input type="text" placeholder=" New Place" autofocus
-       title="Please Enter A Valid Place Name. "  pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" id="newPlace" required>
-
-       <input type="url" name="trip Image" id="tripImage" placeholder="Enter The Image URL ">
-
-       <input type="number" pattern="[0-9]" placeholder="Starting Price in INR"   min="5000" title="Please Enter valid Amount" id="price" required>
+    <div class="container">
 
 
-       <input type="text" placeholder="Guide Name" title="Please Enter Valid Name."  pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"  id="guideName" required> <br> 
+        <form onsubmit="newTrip(event)">
+            <input 
+            type="text" 
+            placeholder="Please Enter The Place" 
+            autofocus 
+            minlength="3"
+            title="Please Enter A Valid Place Name. "
+            pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" 
+            id="tripName" 
+            required
+            >
+
+            <input 
+            type="url" 
+            name="trip Image" 
+            id="tripImage" 
+            placeholder="Enter The Image URL "
+            >
+
+            <input 
+            type="number" 
+            pattern="[0-9]" 
+            placeholder="Starting Price in INR" 
+            min="5000"
+            title="Please Enter valid Amount" 
+            id="tripPrice" 
+            required>
 
 
-       <input type="text" placeholder="Pick Up Point " title="Please Enter A Valid Pick Up Point."  pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" id="pickUp" required>
+            <input 
+            type="text" 
+            placeholder="Guide Name" 
+            minlength="3"
+            title="Please Enter Valid Name."
+            pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" 
+            id="guideName" 
+            required
+            > 
+            <br/>
 
-     <div>
-         <input type="reset" value="Reset" class="reset">
-         <input type="submit" value="Add Trip" class="submit">
-     </div>  
-   </form>
+
+            <input 
+            type="text" 
+            placeholder="Pick Up Point " 
+            minlength="3"
+            title="Please Enter A Valid Pick Up Point."
+            pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$" 
+            id="pickUpPoint" 
+            required
+            >
+
+            <div>
+                <input type="reset" value="Reset" class="reset">
+                <input type="submit" value="Add Trip" class="submit">
+            </div>
+        </form>
 
 
 
-<script src="./../assets/js/newtrip.js"></script>
+        <script src="./../assets/js/newtripDetails.js"></script>
 </body>
 
 </html>

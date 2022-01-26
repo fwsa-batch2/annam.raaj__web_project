@@ -4,6 +4,11 @@
     margin-left: 650px;
     border-radius: 30px;
 }
+img{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
 ul{
     list-style-type: none;
     margin-left: 1000px;
@@ -18,7 +23,6 @@ li{
 li a{
     text-decoration: none;
     border: 0 10px;
-    
     color: black;
     position: relative;
 }
@@ -36,38 +40,35 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-img{
-    border-radius: 30px;
-}
-.varanasi{
+.varanasi_Trip{
     margin-left: 180px;
     margin-top: 150px;
 }
-.tirumala{
+.tirumala_Trip{
     margin-left: 150px;
     margin-top: 150px;
 }
-.macca{
+.macca_Trip{
     margin-left: 150px;
     margin-top: 150px;
 }
-.jerusaleum{
+.jerusaleum_Trip{
     margin-left: 150px;
     margin-top: 150px;
 }
-.vartext{
+.varanasi_Trip_Text{
     margin-left: 150px;
     font-size: 25px;
 }
-.tirtext{
+.tirumala_Trip_Text{
     margin-left: 170px;
     font-size: 25px;
 }
-.mactext{
+.macca_Trip_Text{
     margin-left: 230px;
     font-size: 25px;
 }
-.jertext{
+.jerusaleum_Trip_Text{
     margin-left: 210px;
     font-size: 25px;
 }

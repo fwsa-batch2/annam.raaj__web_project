@@ -4,13 +4,18 @@
     margin-left: 650px;
     border-radius: 30px;
 }
+img{
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
 ul{
     list-style-type: none;
     margin-left: 1000px;
     margin-top: 30px;
     font-size: 25px;
     font-weight: bold;
-}
+} 
 li{
     float: left;
     margin-left: 40px;
@@ -36,30 +41,27 @@ ul li .decoration::before{
 ul li a:hover::before {
     width: 100%;
 }
-img{
-    border-radius: 30px;
-}
-.ooty{
+.ooty_Trip{
     margin-left: 380px;
     margin-top: 150px;
 }
-.darjeeling{
+.darjeeling_Trip{
     margin-left: 150px;
     margin-top: 150px;
 }
-.araku{
+.araku_Trip{
     margin-left: 150px;
     margin-top: 150px;
 }
-.ottext{
+.ooty_Trip_Text{
     margin-left: 450px;
     font-size: 25px;
 }
-.dartext{
+.darjeeling_Trip_Text{
     margin-left: 270px;
     font-size: 25px;
 }
-.aktext{
+.araku_Trip_Text{
     margin-left: 260px;
     font-size: 25px;
 }
