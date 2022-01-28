@@ -11,7 +11,12 @@ p{
     margin-left: 725px;
     margin-top: 0px;
 }
-.container{
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;  
+}
+.Main_Container{
     width: 600px;
     height: 600px;
     background-color: white;
@@ -22,28 +27,23 @@ p{
 .palce{
     font-size: 35px;
     font-weight: 300px;
-    margin-left: 200px;
+    margin-left: 150px;
     padding-top: 30px;
 }
-.details{
+.Trip_Details{
     font-size: 25px;
     font-weight: 200px;
     margin-left: 20px;
 
 }
-.payement{
+.Mode_Of_Payement{
     font-size: 30px;
     font-weight: bold;
     margin-left: 170px;
     margin-top: -30px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    
-}
-.net{
+
+.Netbanking_Payment{
     margin-left: 50px;
 }
 button{
@@ -51,17 +51,16 @@ button{
     height: 50px;
     font-size: 20px;
     margin-top: -10px;
-    margin-left: 70px;
 }
-.submit{
+.Submit_Button{
     background-color: green;
+    margin-left: 60px;
     color: white;
     cursor: pointer;
-
 }
-.back{
+.Back_Button{
     background-color: red;
+    margin-left: 160px;
     color: white;
     cursor: pointer;
-    margin-left: 165px;
 }

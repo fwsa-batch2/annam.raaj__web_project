@@ -1,0 +1,72 @@
+.logo {
+  width: 500px;
+  height: 150px;
+  margin-left: 650px;
+  border-radius: 30px;
+  margin-top: 0px;
+}
+ul{
+  list-style-type: none;
+  margin-left: 1000px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+li{
+  float: left;
+  margin-left: 40px;
+}
+li a{
+  text-decoration: none;
+  border: 0 10px;
+  color: black;
+  position: relative;
+}
+ul li .decoration::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 4px;
+  width: 0;
+  background: black;
+  transition: 0.5s;
+
+}
+ul li a:hover::before {
+  width: 100%;
+}
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin-left: 90px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+}
+
+strong {
+  font-size: 25px;
+}
+.Title {
+  margin-left: 780px;
+  font-size: 45px;
+}
+button {
+  margin-left: 800px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}

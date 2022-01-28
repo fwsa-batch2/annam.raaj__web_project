@@ -1,0 +1,65 @@
+.logo {
+  width: 500px;
+  height: 150px;
+  margin-left: 650px;
+  border-radius: 30px;
+}
+.Title {
+  font-size: 50px;
+  font-weight: 500;
+  font-style: inherit;
+  margin-left: 725px;
+  margin-top: 0px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.Main_Container {
+  width: 750px;
+  height: 600px;
+  background-color: white;
+  border-radius: 50px;
+  margin-left: 520px;
+  margin-top: -30px;
+}
+.palce {
+  font-size: 35px;
+  font-weight: 300px;
+  margin-left: 200px;
+  padding-top: 20px;
+}
+.Trip_Details {
+  font-size: 25px;
+  font-weight: 200px;
+  margin-left: 20px;
+}
+.Mode_Of_Payement {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 220px;
+  margin-top: -30px;
+}
+
+.Netbanking_Payment {
+  margin-left: 50px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.submit {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.back {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  margin-left: 160px;
+}
