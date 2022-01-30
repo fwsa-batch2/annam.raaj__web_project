@@ -4,50 +4,45 @@
     margin-left: 650px;
     border-radius: 30px;
 }
-p{
-    color: white;
+img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;  
+}
+.title{
     font-size: 50px;
     font-weight: 500;
     font-style: inherit;
     margin-left: 725px;
     margin-top: 0px;
 }
-.container{
-    width: 600px;
+.Main_Container{
+    width: 690px;
     height: 600px;
     background-color: white;
     border-radius: 50px;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: -30px;
 }
 .palce{
-    color: black;
     font-size: 35px;
     font-weight: 300px;
-    margin-left: 150px;
+    margin-left: 230px;
     padding-top: 30px;
 }
-.details{
-    color: black;
+.Trip_Details{
     font-size: 25px;
     font-weight: 200px;
     margin-left: 20px;
 
 }
-.payement{
-    color: black;
+.Mode_Of_Payement{
     font-size: 30px;
     font-weight: bold;
-    margin-left: 170px;
+    margin-left: 200px;
     margin-top: -30px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-    
-}
-.net{
+.Netbanking_Payment{
     margin-left: 50px;
 }
 button{
@@ -56,15 +51,15 @@ button{
     font-size: 20px;
     margin-top: -10px;
 }
-.submit{
+.Submit_Button{
     background-color: green;
     color: white;
     cursor: pointer;
     margin-left: 80px;
 }
-.back{
+.Back_Button{
     background-color: red;
     color: white;
     cursor: pointer;
-    margin-left: 160px;
+    margin-left: 190px;
 }
