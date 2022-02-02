@@ -33,7 +33,7 @@ function newTrip(event) {
 
       break;
     }
-  }
+  } 
 
   if(isPlaceALreadyExists){
     alert("Please Do Not Enter Place That Already Exists!!!");
@@ -43,7 +43,7 @@ function newTrip(event) {
   newTripDetails.push(tripAddingdetails);
   localStorage.setItem("Trip_Details", JSON.stringify(newTripDetails));
 
-  window.location.href="./../pages/new trip list.html";
+  window.location.href="./../pages/NewTrips.html";
 
   
 }

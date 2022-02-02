@@ -69,7 +69,7 @@
    * we will get the values from the local storage and display here.
 
    
-   ##### * Search Box &nbsp;&nbsp; (Completed)
+   ##### * Search Box &nbsp;&nbsp; (In Progress)
    * We can see this search bar in home page.
    * Here we have to give correct values if not it will show an Error "Page Not Found!".
     The Values are:-

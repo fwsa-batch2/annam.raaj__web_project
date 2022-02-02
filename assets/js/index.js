@@ -61,7 +61,7 @@ function myProfile(event){
 }
 
 
-// This function works on search functionality
+// This function works on search bar functionality
 function searchBar(event){
     event.preventDefault();
 

@@ -9,7 +9,7 @@ function submitHandler(event){
    let worldTourCode=document.getElementById("secretCode").value;
    if(worldTourAdminId == worldTourID && worldTourSecretCode == worldTourCode){
        alert("Welcome Admin!!!"); 
-       window.location.href="./../pages/New Trip details.html"  
+       window.location.href="./../pages/AddTrip.html"  
    }
    else{
        alert("Invalid Admin!!!")

@@ -2,12 +2,20 @@
 <html lang="en">
   <head>
     <link rel="shortcut icon" href="./../assets/image/icon1.png" />
-    <link rel="stylesheet" href="./../assets/css/reviewadding.css" />
+    <link rel="stylesheet" href="./../assets/css/newtrips.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Customer Reviews</title>
-  </head>
+    <title>NEW TRIP LIST</title>
+    <style>
+      body {
+        background-image: url("./../assets/image/newtriplistBg.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+      }
+    </style>
+  </head> 
   <body>
     <header>
       <a href="./../index.html"
@@ -31,35 +39,15 @@
         <a href="./../pages/userlogin.html" class="decoration"> Login </a>
       </li>
     </ul>
-    <p class="Title">You Can Type Your Reviews Here:-</p>
-    <div class="container">
-      <form onsubmit="reviewList(event)">
-        <input
-          type="text"
-          placeholder="Please Enter Your Name"
-          autofocus
-          id="userName"
-          title="Please Enter A Valid User Name. "
-          pattern="^[a-zA-Z0-9_]+( [a-zA-Z0-9_]+)*$"
-          minlength="3"
-          required
-        />
-        <br /><br />
-        <textarea
-          name="textbox"
-          id="review"
-          cols="30"
-          rows="10"
-          placeholder="Type Your Reviews"
-          required
-        ></textarea>
-
-        <div>
-          <input type="reset" value="Reset" class="reset" />
-          <input type="submit" value="Add" class="submit" />
+    <a href="./../pages/Ticket.html" class="link_To_TicketsPage">
+      <div class="Main_Container" id="tripList">
+        <div class="tripInfo" id="tripInfo">
+          <p>Place:- <span> Nellore </span></p>
+          <p>Starting Price in INR :- <span> 15,000 </span></p>
+          <p>Guide Name:-<span> Suguram </span></p>
         </div>
-      </form>
-    </div>
-    <script src="./../assets/js/reviewadding.js"></script>
+      </div>
+    </a>
+    <script src="./../assets/js/NewTrips.js"></script>
   </body>
 </html>
