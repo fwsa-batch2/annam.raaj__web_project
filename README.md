@@ -1,12 +1,14 @@
 # World Tour App
 
-### Netlify URL
+### Live URL
 
-##### https://worldtourapp-ui-annamraaj.netlify.app/
+#### https://fwsa-batch2.github.io/annam.raaj__web_project/
 
-### subdomain
+### Sonarcloud link
 
-#### https://worldtour.fwsa.in
+#### https://sonarcloud.io/project/overview?id=fwsa-batch2_annam.raaj__web_project
+
+
 ## Pages:-
   * Home &nbsp;&nbsp; (completed)
   * About us &nbsp;&nbsp; (completed)
